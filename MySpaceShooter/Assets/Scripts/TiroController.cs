@@ -13,7 +13,7 @@ public class TiroController : MonoBehaviour
         meuRB = GetComponent<Rigidbody2D>();
         //meuRB.velocity = new Vector2(0f, velocidade);
         /*teste*/
-
+        //teste do commit
    
     }
     
