@@ -16,7 +16,6 @@ public class GeradorInimigos : MonoBehaviour
         
     }
 
-    
     void Update()
     {
         geraInimigos();
