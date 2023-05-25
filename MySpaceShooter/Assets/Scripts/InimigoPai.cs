@@ -97,7 +97,7 @@ public class InimigoPai : MonoBehaviour
             //pegando o rigidbody do powerUp e dando uma velocidade pra ele
             Pu.GetComponent<Rigidbody2D>().velocity = dir;
         }
-        Debug.Log(chance);
+       /* Debug.Log(chance);*/
 
     }
 

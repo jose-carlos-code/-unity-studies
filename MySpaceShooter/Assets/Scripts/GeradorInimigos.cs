@@ -1,24 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class GeradorInimigos : MonoBehaviour
 {
     [SerializeField] private GameObject[] inimigos;
     [SerializeField]private int pontos = 0;
     [SerializeField]private int level = 1;
-    [SerializeField] private int baseLevel = 100;
+    [SerializeField] private int baseLevel = 1;
     [SerializeField]private float esperaInimigo = 0f;
     [SerializeField] private float tempoEspera = 2f;
     [SerializeField] private int qtdInimigo = 0;
+    [SerializeField] private GameObject animacaoboss;
+    [SerializeField] private GameObject boss;
+    private bool animBossCriado;//aparentemente ele recebe false
+    private Animator duracaoAnimBoss;
     void Start()
     {
-        
+      
     }
 
     void Update()
     {
+        //gerando inimigos enquanto eu não estou no level 10
         geraInimigos();
+        if (this.level >= 10 && !animBossCriado && this.qtdInimigo <= 0)
+        {
+            this.CriaAnimacaoboss();
+            this.animBossCriado = true;
+
+        }
     }
 
     //ganhando pontos
@@ -44,7 +56,7 @@ public class GeradorInimigos : MonoBehaviour
 
        /*se o hit é null, não houve colisão
         * posso criar inimigo ali
-        se o hit não é null, não houve colisão
+        se o hit não é null, houve colisão
         * não posso criar inimigo ali
         */
   
@@ -85,6 +97,7 @@ public class GeradorInimigos : MonoBehaviour
             //criando vários inimigos de uma só vez
             while (qtdInimigo < quantidade)
             {
+                //Fazendo uma precaução
                 /*Fazendo ele sair da repetição se ele tentou muitas vezes*/
                 //aumentando tentativas
                 tentativas++;
@@ -133,5 +146,25 @@ public class GeradorInimigos : MonoBehaviour
                 //Testando no visual studio code
             }
         }
+    }
+
+    private void CriaAnimacaoboss()
+    {
+        this.tempoEspera = 4f;
+        while(this.tempoEspera > 0)
+        {
+            this.tempoEspera -= Time.deltaTime;
+            Debug.Log(tempoEspera);
+
+            if(this.tempoEspera <= 0)
+            {
+                Vector3 posicao = Vector3.zero;//posições: (0f, 0f, 0f);
+                Instantiate(animacaoboss, posicao, transform.rotation);
+            }
+        }
+        //verificando se a animação terminou
+        /*this.duracaoAnimBoss = animacaoboss.GetComponentInChildren<Animator>();
+        float duracao = duracaoAnimBoss.GetCurrentAnimatorStateInfo (0).length;
+        Destroy(this.animacaoboss, duracao);*/
     }
 }
