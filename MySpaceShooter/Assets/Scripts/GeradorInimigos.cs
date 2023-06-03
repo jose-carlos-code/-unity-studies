@@ -6,14 +6,14 @@ using UnityEngine.Animations;
 public class GeradorInimigos : MonoBehaviour
 {
     [SerializeField] private GameObject[] inimigos;
-    [SerializeField]private int pontos = 0;
-    [SerializeField]private int level = 1;
+    [SerializeField] private int pontos = 0;
+    [SerializeField] private int level = 1;
     [SerializeField] private int baseLevel = 1;
-    [SerializeField]private float esperaInimigo = 0f;
+    [SerializeField] private float esperaInimigo = 0f;
     [SerializeField] private float tempoEspera = 2f;
     [SerializeField] private int qtdInimigo = 0;
     [SerializeField] private GameObject animacaoboss;
-    [SerializeField] private GameObject boss;
+    //[SerializeField] private GameObject boss;
     private bool animBossCriado;//aparentemente ele recebe false
     private Animator duracaoAnimBoss;
     void Start()
@@ -24,13 +24,16 @@ public class GeradorInimigos : MonoBehaviour
     void Update()
     {
         //gerando inimigos enquanto eu não estou no level 10
-        geraInimigos();
-        if (this.level >= 10 && !animBossCriado && this.qtdInimigo <= 0)
+        if(level < 10)
         {
-            this.CriaAnimacaoboss();
-            this.animBossCriado = true;
-
+            geraInimigos();
         }
+        else
+        {
+            CriaAnimacaoboss();
+        }
+
+
     }
 
     //ganhando pontos
@@ -150,21 +153,22 @@ public class GeradorInimigos : MonoBehaviour
 
     private void CriaAnimacaoboss()
     {
-        this.tempoEspera = 4f;
-        while(this.tempoEspera > 0)
-        {
-            this.tempoEspera -= Time.deltaTime;
-            Debug.Log(tempoEspera);
 
-            if(this.tempoEspera <= 0)
-            {
-                Vector3 posicao = Vector3.zero;//posições: (0f, 0f, 0f);
-                Instantiate(animacaoboss, posicao, transform.rotation);
-            }
+        if (this.qtdInimigo <= 0 && tempoEspera > 0)
+        {
+            tempoEspera -= Time.deltaTime;
         }
-        //verificando se a animação terminou
-        /*this.duracaoAnimBoss = animacaoboss.GetComponentInChildren<Animator>();
-        float duracao = duracaoAnimBoss.GetCurrentAnimatorStateInfo (0).length;
-        Destroy(this.animacaoboss, duracao);*/
+
+        if (tempoEspera <= 0 && !animBossCriado)
+        {
+            Vector3 posicao = Vector3.zero;//posições: (0f, 0f, 0f);
+            GameObject animBoss = Instantiate(animacaoboss, posicao, transform.rotation);
+            Destroy(animBoss, 8f);
+            this.animBossCriado = true;
+        }
     }
 }
+//código que peguei na internet para pegar o tempo que a animação dura
+/*this.duracaoAnimBoss = animacaoboss.GetComponentInChildren<Animator>();
+float duracao = duracaoAnimBoss.GetCurrentAnimatorStateInfo(10).length;
+Debug.Log(duracao);*/

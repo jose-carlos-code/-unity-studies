@@ -14,7 +14,6 @@ public class InimigoController : InimigoPai // é dessa forma que se coloca a he
     //dando velocidade ao meu tiro
     [SerializeField] private float velocidadeTiro = -5f;
 
-    private float esperaTiro = 1f;
     void Start()
     {
         meuRB = GetComponent<Rigidbody2D>();

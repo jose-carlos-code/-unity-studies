@@ -12,6 +12,7 @@ public class InimigoPai : MonoBehaviour
     [SerializeField] protected GameObject powerUp;
     [SerializeField] protected int tipoInimigo;
     [SerializeField] protected float itemRate;
+    [SerializeField] protected float esperaTiro = 1f;
     void Start()
     {
         
@@ -97,8 +98,6 @@ public class InimigoPai : MonoBehaviour
             //pegando o rigidbody do powerUp e dando uma velocidade pra ele
             Pu.GetComponent<Rigidbody2D>().velocity = dir;
         }
-       /* Debug.Log(chance);*/
-
     }
 
 }

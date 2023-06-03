@@ -8,7 +8,6 @@ public class Inimigo02Controller : InimigoPai
     public bool possoMover;
     private Rigidbody2D meuRB;
     [SerializeField] private float yMax;
-    [SerializeField] private float esperaTiro;
 
     [SerializeField] private Transform transformTiro;
 
