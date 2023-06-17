@@ -194,15 +194,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 3
   vidaInimigo: 3
-  explosao: {fileID: 0}
-  pontos: 10
+  explosao: {fileID: 5208595194927844076, guid: c652ceb1e0746894197c09e1801aaae1,
+    type: 3}
+  pontos: 200
   powerUp: {fileID: 0}
   tipoInimigo: 0
   itemRate: 0
   esperaTiro: 1
-  estado: estado2
   meuRg: {fileID: 0}
-  isRight: 1
   limiteHorizontal: 3.84
   posicaoTiro1: {fileID: 1936976989}
   posicaoTiro2: {fileID: 54246416}
@@ -210,13 +209,10 @@ MonoBehaviour:
   tiro1: {fileID: 807976972188097659, guid: f4b7a38cd69ff684c8d60bec6434175d, type: 3}
   tiro2: {fileID: 4589352482424296328, guid: a05f3d2a07e753a46851ef57ecf6223a, type: 3}
   velocidadeTiro: 2.5
-  delayTiro: 1
-  esperaTiro2: 1.5
   estados:
   - estado1
   - estado2
   - estado3
-  esperaEstado: 10
 --- !u!95 &204457142
 Animator:
   serializedVersion: 3

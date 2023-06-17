@@ -32,13 +32,19 @@ public class InimigoPai : MonoBehaviour
             vidaInimigo -= dano;
             if (vidaInimigo <= 0)
             {
-                Instantiate(explosao, transform.position, transform.rotation);
                 Destroy(gameObject);
-                dropaPowerUp(this.tipoInimigo);
+                Instantiate(explosao, transform.position, transform.rotation);
+                if (this.powerUp)
+                {
+                    dropaPowerUp(this.tipoInimigo);
+                }
                 //ganhando pontos
                 var gerador = FindObjectOfType<GeradorInimigos>();
                 //gerador.DiminuiQuantidade();
-                gerador.GanhandoPontos(this.pontos);
+                if (gerador)
+                {
+                    gerador.GanhandoPontos(this.pontos);
+                }
             }
 
         }

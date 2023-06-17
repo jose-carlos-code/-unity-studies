@@ -3,9 +3,9 @@
 public class BossController : InimigoPai
 {
     [Header("Informações Básicas")]
-    [SerializeField] private string estado = "estado1";
+    private string estado = "estado1";
     [SerializeField] private Rigidbody2D meuRg;
-    [SerializeField] private bool isRight = true;
+    private bool isRight = true;
     [SerializeField] private float limiteHorizontal = 3.84f;
 
     [Header("Informações dos Tiros")]
@@ -15,10 +15,10 @@ public class BossController : InimigoPai
     [SerializeField] private GameObject tiro1;
     [SerializeField] private GameObject tiro2;
     [SerializeField] private float velocidadeTiro = 2.5f;
-    [SerializeField] private float delayTiro = 1f;
-    [SerializeField] private float esperaTiro2 = 1f;
+    private float delayTiro = 1f;
+    private float esperaTiro2 = 1f;
     [SerializeField] private string[] estados;
-    [SerializeField] private float esperaEstado = 10f;
+    private float esperaEstado = 10f;
     void Start()
     {
         meuRg = GetComponent<Rigidbody2D>();
