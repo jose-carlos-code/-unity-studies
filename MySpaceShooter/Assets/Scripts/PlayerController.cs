@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,12 +23,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject escudo;
     private GameObject escudoAtual;
     [SerializeField] private int qtdEscudos = 3;
-  
 
-    
+    [SerializeField] private Text textLife;
+    [SerializeField] private Text textShield;
     void Start()
     {
       meuRb = GetComponent<Rigidbody2D>();
+
+        //informando o quanto de vida que eu tenho
+
+        textLife.text = vidaPlayer.ToString();
+        textShield.text = qtdEscudos.ToString();
     }
 
    
@@ -115,6 +121,7 @@ public class PlayerController : MonoBehaviour
                 escudoAtual = Instantiate(escudo, transform.position, transform.rotation);
                //deminuindo a quantidade de escudos
                 qtdEscudos--;
+                textShield.text = qtdEscudos.ToString();
             }
 
         }
@@ -130,6 +137,8 @@ public class PlayerController : MonoBehaviour
     public void perdeVida(int dano)
     {
         vidaPlayer -= dano;
+        //atualizando a vida no UI(user interface)
+        textLife.text = vidaPlayer.ToString();
         if (vidaPlayer <=0)
         {
             Instantiate(explosao, transform.position, transform.rotation);

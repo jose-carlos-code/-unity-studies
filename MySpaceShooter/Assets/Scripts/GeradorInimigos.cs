@@ -163,7 +163,7 @@ public class GeradorInimigos : MonoBehaviour
         {
             Vector3 posicao = Vector3.zero;//posições: (0f, 0f, 0f);
             GameObject animBoss = Instantiate(animacaoboss, posicao, transform.rotation);
-            Destroy(animBoss, 8f);
+            //Destroy(animBoss, 8f);
             this.animBossCriado = true;
         }
     }

@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 3
-  vidaInimigo: 3
+  vidaInimigo: 50
   explosao: {fileID: 5208595194927844076, guid: c652ceb1e0746894197c09e1801aaae1,
     type: 3}
   pontos: 200
