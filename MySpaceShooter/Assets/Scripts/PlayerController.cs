@@ -20,12 +20,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float xLimite;
     [SerializeField] private float yLimite;
     [SerializeField] private int levelTiro = 1;
+    [SerializeField] private int pontosPlayer = 0;
     [SerializeField] private GameObject escudo;
     private GameObject escudoAtual;
     [SerializeField] private int qtdEscudos = 3;
 
     [SerializeField] private Text textLife;
     [SerializeField] private Text textShield;
+    [SerializeField] private Text pointsUI;
     void Start()
     {
       meuRb = GetComponent<Rigidbody2D>();
@@ -159,6 +161,12 @@ public class PlayerController : MonoBehaviour
                 levelTiro++;
             }
         }
+    }
+
+    public void addPoints(int points)
+    {
+        this.pontosPlayer += points;
+        this.pointsUI.text = pontosPlayer.ToString();
     }
 
 }

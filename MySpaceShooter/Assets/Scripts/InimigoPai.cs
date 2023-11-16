@@ -34,6 +34,8 @@ public class InimigoPai : MonoBehaviour
             {
                 Destroy(gameObject);
                 Instantiate(explosao, transform.position, transform.rotation);
+                var player = FindObjectOfType<PlayerController>();
+                player.addPoints(pontos);
                 if (this.powerUp)
                 {
                     dropaPowerUp(this.tipoInimigo);
@@ -64,7 +66,7 @@ public class InimigoPai : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Destruidor"))
+        if (other.CompareTag("Destruidor") && gameObject.tag != "Boss")
         {
             Destroy(gameObject);
             Instantiate(explosao, transform.position, transform.rotation);

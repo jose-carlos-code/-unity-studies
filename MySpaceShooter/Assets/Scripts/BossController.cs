@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class BossController : InimigoPai
 {
@@ -19,9 +20,19 @@ public class BossController : InimigoPai
     private float esperaTiro2 = 1f;
     [SerializeField] private string[] estados;
     private float esperaEstado = 10f;
+    [SerializeField] private Image lifeBar;
+    [SerializeField] private int vidaMaxima = 300;
     void Start()
     {
         meuRg = GetComponent<Rigidbody2D>();
+        /*UMA BREVE EXPLICAÇÃO: 
+         
+           Se você dividir o valor de vida atual pelo valor de vida máxima, você obtem um valor entre 0 e 1;
+         
+         */
+
+        //dando a minha vida inicial
+        vidaInimigo = vidaMaxima;
     }
 
     
@@ -40,6 +51,12 @@ public class BossController : InimigoPai
                 estado3();
                 break;
         }
+
+        //forçando o tipo de dado a ficar float -> type cast
+        lifeBar.fillAmount = ((float)vidaInimigo / (float)vidaMaxima);
+        //Converterdeno o valor do fillamount para alguma coisa entre 0 e 255 e garantindo que o valor dele seja do tipo byte
+        //definindo a cor da barra de vida do boss
+        lifeBar.color = new Color32(130, (byte)(lifeBar.fillAmount * 255), 59, 255);
     }
 
     private void estado1()

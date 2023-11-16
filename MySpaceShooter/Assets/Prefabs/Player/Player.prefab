@@ -82,14 +82,19 @@ MonoBehaviour:
   meuTiro: {fileID: 9045821437105075881, guid: f9fda51aeccd1064bbe222979a81f4b3, type: 3}
   meuTiro2: {fileID: 472011431277111895, guid: e78e937e721fa474abb7345608627a7e, type: 3}
   posicaoTiro: {fileID: 4545952998860816856}
-  vidaPlayer: 10000
+  vidaPlayer: 150
   explosao: {fileID: 1659395700073182753, guid: f7cf60064742009439f7e4b96457d15d,
     type: 3}
   velocidadeTiro: 10
   xLimite: 6.09
   yLimite: 4.35
-  levelTiro: 1
+  levelTiro: 3
+  pontosPlayer: 0
   escudo: {fileID: 1298430278090375610, guid: 6523fe6514a72384195f2de8d8dc12ef, type: 3}
+  qtdEscudos: 3
+  textLife: {fileID: 0}
+  textShield: {fileID: 0}
+  pointsUI: {fileID: 0}
 --- !u!50 &3055433436892236990
 Rigidbody2D:
   serializedVersion: 4

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.UI;
 
 public class GeradorInimigos : MonoBehaviour
 {
@@ -32,8 +33,6 @@ public class GeradorInimigos : MonoBehaviour
         {
             CriaAnimacaoboss();
         }
-
-
     }
 
     //ganhando pontos

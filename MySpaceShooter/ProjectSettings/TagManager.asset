@@ -7,6 +7,7 @@ TagManager:
   - Inimigo
   - Destruidor
   - PowerUp
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Player
   - Tiro player
   - Tiro inimigo
-  - 
+  - Boss
   - 
   - 
   - 
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2301534999
+    locked: 0
+  - name: UI
+    uniqueID: 1292996067
     locked: 0

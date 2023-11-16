@@ -25,7 +25,7 @@ public class TiroController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-            if (collision.CompareTag("Inimigo"))
+            if (collision.CompareTag("Inimigo") || collision.CompareTag("Boss"))
             {
                 /*pegando o elemento script da classe inimigoController e 
                  * o método perdeVida*/
