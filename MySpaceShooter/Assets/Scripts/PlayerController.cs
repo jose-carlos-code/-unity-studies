@@ -145,6 +145,15 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(explosao, transform.position, transform.rotation);
             Destroy(gameObject);
+
+            //carregando a cena inicial do jogo quando o player morrer
+            //achando o game manager
+            var gameManager = FindObjectOfType<GameManagerController>();
+            //rodando o método de inciar se o game manager existe
+            if (gameManager)
+            {
+                gameManager.Inicio();
+            }
         }
        
     }

@@ -47,7 +47,10 @@ MonoBehaviour:
   - {fileID: 1565834095763951659, guid: ee356bf5c0464ff409c9d4c6d971ee7e, type: 3}
   - {fileID: 2057353792984550583, guid: ae85db21aa1febe45940e2e8e3968d49, type: 3}
   pontos: 0
-  level: 1
-  baseLevel: 100
+  level: 2
+  baseLevel: 1
   esperaInimigo: 0
-  tempoEspera: 5
+  tempoEspera: 2
+  qtdInimigo: 0
+  animacaoboss: {fileID: 2172878118690000829, guid: 9cd9d3647b86c354aa53d81a15fe991b,
+    type: 3}

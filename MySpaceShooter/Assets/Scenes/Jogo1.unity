@@ -650,6 +650,11 @@ PrefabInstance:
       propertyPath: textShield
       value: 
       objectReference: {fileID: 1223989205}
+    - target: {fileID: 3055433436892236991, guid: 6434724707946fb44b7697c4071cb5b9,
+        type: 3}
+      propertyPath: vidaPlayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6434724707946fb44b7697c4071cb5b9, type: 3}
 --- !u!1001 &3868201164549698884
@@ -788,20 +793,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 6989140605608251306, guid: 081c2af8963699642a17641f29f477ad,
+    - target: {fileID: 6989140605608251305, guid: 081c2af8963699642a17641f29f477ad,
         type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
-    - target: {fileID: 6989140605608251306, guid: 081c2af8963699642a17641f29f477ad,
+    - target: {fileID: 8123794969409719696, guid: 081c2af8963699642a17641f29f477ad,
         type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0
+      propertyPath: isGlobal
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6989140605608251306, guid: 081c2af8963699642a17641f29f477ad,
+    - target: {fileID: 8215294174582550215, guid: 081c2af8963699642a17641f29f477ad,
         type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0
+      propertyPath: volumeLayer.m_Bits
+      value: 8192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081c2af8963699642a17641f29f477ad, type: 3}
@@ -912,7 +917,7 @@ PrefabInstance:
     - target: {fileID: 8223426701828020571, guid: 191060e28b804da4ba44055f697fc743,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 191060e28b804da4ba44055f697fc743, type: 3}
