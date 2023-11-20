@@ -561,6 +561,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2118782495713138769, guid: f7c6aa565a0d79546b6909fbe95ef778,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.54089355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118782496327028525, guid: f7c6aa565a0d79546b6909fbe95ef778,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.4001465
+      objectReference: {fileID: 0}
     - target: {fileID: 2118782496327028525, guid: f7c6aa565a0d79546b6909fbe95ef778,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -653,7 +663,7 @@ PrefabInstance:
     - target: {fileID: 3055433436892236991, guid: 6434724707946fb44b7697c4071cb5b9,
         type: 3}
       propertyPath: vidaPlayer
-      value: 1
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6434724707946fb44b7697c4071cb5b9, type: 3}
@@ -803,6 +813,12 @@ PrefabInstance:
       propertyPath: isGlobal
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8123794969409719696, guid: 081c2af8963699642a17641f29f477ad,
+        type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c3d9c344c5234342aaed3f85b7885f2,
+        type: 2}
     - target: {fileID: 8215294174582550215, guid: 081c2af8963699642a17641f29f477ad,
         type: 3}
       propertyPath: volumeLayer.m_Bits
