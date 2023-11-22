@@ -9,7 +9,7 @@ public class GeradorInimigos : MonoBehaviour
     [SerializeField] private GameObject[] inimigos;
     [SerializeField] private int pontos = 0;
     [SerializeField] private int level = 1;
-    [SerializeField] private int baseLevel = 1;
+    [SerializeField] private int baseLevel = 100;
     [SerializeField] private float esperaInimigo = 0f;
     [SerializeField] private float tempoEspera = 2f;
     [SerializeField] private int qtdInimigo = 0;
@@ -38,10 +38,18 @@ public class GeradorInimigos : MonoBehaviour
     //ganhando pontos
     public void GanhandoPontos(int pontos)
     {
-        this.pontos += pontos;
-        if (this.pontos > this.level * this.baseLevel)
+        //vou ganhar pontos com base no level do jogo
+        this.pontos += pontos * level;
+
+        //Ganhando level SE os pontos forem  maior do que a base do level
+
+        //os pontos para ganhar level precisam ser 100 * level
+        //sobrar a quantidade de pontos por level
+        if (this.pontos > this.baseLevel)
         {
             this.level++;
+            //dobrando a quantidade de pontos necessária
+            baseLevel *= 2;
         }
     }
     public void DiminuiQuantidade()

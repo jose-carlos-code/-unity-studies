@@ -50,13 +50,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: -2
-  vidaInimigo: 2
+  vidaInimigo: 1
   explosao: {fileID: 1659395700073182753, guid: f7cf60064742009439f7e4b96457d15d,
     type: 3}
-  pontos: 30
+  pontos: 10
   powerUp: {fileID: 5275331767976505294, guid: db692aeff8c1d5b4f8c6288f36f17d77, type: 3}
   tipoInimigo: 1
-  itemRate: 0.99
+  itemRate: 0.85
+  esperaTiro: 1
   meuRB: {fileID: 0}
   meuTiro: {fileID: 807976972188097659, guid: f4b7a38cd69ff684c8d60bec6434175d, type: 3}
   posicaoTiro: {fileID: 6328035566396667475}

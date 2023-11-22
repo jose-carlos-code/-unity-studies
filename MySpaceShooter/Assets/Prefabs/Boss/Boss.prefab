@@ -64,7 +64,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.261543, y: 0.9545328}
   m_AnchorMax: {x: 0.74600005, y: 1}
-  m_AnchoredPosition: {x: 2.369995, y: 0.3999939}
+  m_AnchoredPosition: {x: 2.369995, y: 0.39996338}
   m_SizeDelta: {x: 99.19917, y: -1.7070312}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &714633536
@@ -383,6 +383,7 @@ MonoBehaviour:
   tiro1: {fileID: 807976972188097659, guid: f4b7a38cd69ff684c8d60bec6434175d, type: 3}
   tiro2: {fileID: 4589352482424296328, guid: a05f3d2a07e753a46851ef57ecf6223a, type: 3}
   velocidadeTiro: 2.5
+  delayTiro: 1
   estados:
   - estado1
   - estado2
@@ -399,7 +400,7 @@ Animator:
   m_GameObject: {fileID: 2360632480950998886}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 35ec701a89414fa44a3031f1a7af6d55, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99474d8f034d3004f9b82391ec657904, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

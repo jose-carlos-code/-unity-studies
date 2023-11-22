@@ -16,7 +16,7 @@ public class BossController : InimigoPai
     [SerializeField] private GameObject tiro1;
     [SerializeField] private GameObject tiro2;
     [SerializeField] private float velocidadeTiro = 2.5f;
-    private float delayTiro = 1f;
+    [SerializeField] private float delayTiro = 1f;
     private float esperaTiro2 = 1f;
     [SerializeField] private string[] estados;
     private float esperaEstado = 10f;
@@ -57,6 +57,17 @@ public class BossController : InimigoPai
         //Converterdeno o valor do fillamount para alguma coisa entre 0 e 255 e garantindo que o valor dele seja do tipo byte
         //definindo a cor da barra de vida do boss
         lifeBar.color = new Color32(130, (byte)(lifeBar.fillAmount * 255), 59, 255);
+
+        AumentaDificuldade();
+    }
+
+    private void AumentaDificuldade()
+    {
+        //checando se a minha vidad é menor do que ou igual a metade da vida
+        if(vidaInimigo <= vidaMaxima / 2)
+        {
+            delayTiro = 0.7f;
+        }
     }
 
     private void estado1()

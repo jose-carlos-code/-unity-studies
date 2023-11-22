@@ -8,7 +8,7 @@ public class InimigoPai : MonoBehaviour
     [SerializeField] protected float velocidade;//a classe pai e os filhos têm acesso a esse atributo
     [SerializeField] protected int vidaInimigo; 
     [SerializeField] protected GameObject explosao;
-    [SerializeField] protected int pontos = 10;
+    [SerializeField] protected int pontos;
     [SerializeField] protected GameObject powerUp;
     [SerializeField] protected int tipoInimigo;
     [SerializeField] protected float itemRate;
@@ -34,8 +34,6 @@ public class InimigoPai : MonoBehaviour
             {
                 Destroy(gameObject);
                 Instantiate(explosao, transform.position, transform.rotation);
-                var player = FindObjectOfType<PlayerController>();
-                player.addPoints(pontos);
                 if (this.powerUp)
                 {
                     dropaPowerUp(this.tipoInimigo);
@@ -46,6 +44,8 @@ public class InimigoPai : MonoBehaviour
                 if (gerador)
                 {
                     gerador.GanhandoPontos(this.pontos);
+                    var player = FindObjectOfType<PlayerController>();
+                    player.addPoints(this.pontos);
                 }
             }
 
@@ -98,7 +98,7 @@ public class InimigoPai : MonoBehaviour
         {
             //instanciando o powerUp e destruindo ele depois de 3 segundos
             GameObject Pu = Instantiate(powerUp, transform.position, transform.rotation);
-            Destroy(Pu, 3f);
+            Destroy(Pu, 5.2f);
 
             //dando direção para o powerUp
             Vector2 dir = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));

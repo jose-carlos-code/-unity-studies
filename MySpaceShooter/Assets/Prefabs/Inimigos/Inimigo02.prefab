@@ -217,16 +217,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: -2
-  vidaInimigo: 3
+  vidaInimigo: 2
   explosao: {fileID: 1659395700073182753, guid: f7cf60064742009439f7e4b96457d15d,
     type: 3}
-  pontos: 100
+  pontos: 25
   powerUp: {fileID: 5275331767976505294, guid: db692aeff8c1d5b4f8c6288f36f17d77, type: 3}
   tipoInimigo: 2
-  itemRate: 0.97
+  itemRate: 0.89
+  esperaTiro: 2
   possoMover: 0
   yMax: 1.75
-  esperaTiro: 2
   transformTiro: {fileID: 8730294450344606908}
   TiroGrande: {fileID: 4589352482424296328, guid: a05f3d2a07e753a46851ef57ecf6223a,
     type: 3}
