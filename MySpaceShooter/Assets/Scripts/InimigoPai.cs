@@ -13,6 +13,8 @@ public class InimigoPai : MonoBehaviour
     [SerializeField] protected int tipoInimigo;
     [SerializeField] protected float itemRate;
     [SerializeField] protected float esperaTiro = 1f;
+    //som do tiro
+    [SerializeField] protected AudioClip somTiro;
     void Start()
     {
         
@@ -72,6 +74,11 @@ public class InimigoPai : MonoBehaviour
             Instantiate(explosao, transform.position, transform.rotation);
             /*var gerador = FindObjectOfType<GeradorInimigos>();
             gerador.DiminuiQuantidade();*/
+        }
+
+        if (other.CompareTag("DestruidorParede"))
+        {
+            Destroy(gameObject);
         }
     }   
 

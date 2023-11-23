@@ -28,6 +28,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Text textLife;
     [SerializeField] private Text textShield;
     [SerializeField] private Text pointsUI;
+    //som do tiro
+    [SerializeField] private AudioClip somTiro;
+    //som do escudo
+    [SerializeField] private AudioClip somEscudo;
+    //som pra quando o player perder vida
+    [SerializeField] private AudioClip somPerdeVida;
     void Start()
     {
       meuRb = GetComponent<Rigidbody2D>();
@@ -99,6 +105,8 @@ public class PlayerController : MonoBehaviour
                     break;
             }
 
+            AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);
+
         }
 
     }
@@ -121,7 +129,9 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Shield"))
             {   //instanciando o escudo
                 escudoAtual = Instantiate(escudo, transform.position, transform.rotation);
-               //deminuindo a quantidade de escudos
+                //tocando o som do escudo
+                AudioSource.PlayClipAtPoint(somEscudo, Vector3.zero);
+                //deminuindo a quantidade de escudos
                 qtdEscudos--;
                 textShield.text = qtdEscudos.ToString();
             }
@@ -155,6 +165,7 @@ public class PlayerController : MonoBehaviour
                 gameManager.Inicio();
             }
         }
+        /*AudioSource.PlayClipAtPoint(somPerdeVida, new Vector3(0f, 0f, -10f));*/
        
     }
 

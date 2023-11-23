@@ -8,6 +8,7 @@ TagManager:
   - Destruidor
   - PowerUp
   - Boss
+  - DestruidorParede
   layers:
   - Default
   - TransparentFX

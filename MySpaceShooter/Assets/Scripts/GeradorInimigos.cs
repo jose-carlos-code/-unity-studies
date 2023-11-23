@@ -17,6 +17,9 @@ public class GeradorInimigos : MonoBehaviour
     //[SerializeField] private GameObject boss;
     private bool animBossCriado;//aparentemente ele recebe false
     private Animator duracaoAnimBoss;
+    //musica do boss
+    [SerializeField] private AudioClip musicaBoss;
+    [SerializeField] private AudioSource musica;
     void Start()
     {
       
@@ -172,6 +175,10 @@ public class GeradorInimigos : MonoBehaviour
             GameObject animBoss = Instantiate(animacaoboss, posicao, transform.rotation);
             //Destroy(animBoss, 8f);
             this.animBossCriado = true;
+            //trocando a musica do jogo para a música do boss
+            musica.clip = musicaBoss;
+            //tocando a música qua acabamos de atribuir
+            musica.Play();
         }
     }
 }

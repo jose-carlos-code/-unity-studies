@@ -47,6 +47,8 @@ public class InimigoController : InimigoPai // é dessa forma que se coloca a he
             {
                 //instanciando meu tiro
                 GameObject tiro = Instantiate(meuTiro, posicaoTiro.position, transform.rotation);
+                //ativando o som do tiro
+                AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);
                 tiro.GetComponent<Rigidbody2D>().velocity = new Vector2(0f,velocidadeTiro);
                 //reinicar o tempo
                 esperaTiro = Random.Range(1.5f, 2f);

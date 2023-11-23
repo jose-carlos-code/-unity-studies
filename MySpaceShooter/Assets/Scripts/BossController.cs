@@ -149,6 +149,8 @@ public class BossController : InimigoPai
         tiro.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, -velocidadeTiro);
         //criando tiro da direita
         tiro = Instantiate(tiro1, posicaoTiro2.position, transform.rotation);
+        //tocando o som do tiro
+        AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);
         tiro.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, -velocidadeTiro);
     }
 
@@ -161,6 +163,8 @@ public class BossController : InimigoPai
         {
             //criando tiro do meio
             var tiro = Instantiate(tiro2, posicaoTiro3.position, transform.rotation);
+            //tocando o som do tiro
+            AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);
             Vector2 direcao = player.transform.position - tiro.transform.position;
             //normalizando a velocidade do tiro.todos os eixos serão números inteiros
             direcao.Normalize();

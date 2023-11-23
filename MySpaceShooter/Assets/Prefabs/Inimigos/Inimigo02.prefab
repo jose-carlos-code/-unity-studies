@@ -225,6 +225,7 @@ MonoBehaviour:
   tipoInimigo: 2
   itemRate: 0.89
   esperaTiro: 2
+  somTiro: {fileID: 8300000, guid: 0df62ccfc827bd040a780450236178ec, type: 3}
   possoMover: 0
   yMax: 1.75
   transformTiro: {fileID: 8730294450344606908}

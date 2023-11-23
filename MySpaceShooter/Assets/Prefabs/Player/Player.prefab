@@ -88,13 +88,16 @@ MonoBehaviour:
   velocidadeTiro: 10
   xLimite: 6.09
   yLimite: 4.35
-  levelTiro: 3
+  levelTiro: 1
   pontosPlayer: 0
   escudo: {fileID: 1298430278090375610, guid: 6523fe6514a72384195f2de8d8dc12ef, type: 3}
   qtdEscudos: 3
   textLife: {fileID: 0}
   textShield: {fileID: 0}
   pointsUI: {fileID: 0}
+  somTiro: {fileID: 8300000, guid: f7ecf7247f137c640a5eb374476ff7b5, type: 3}
+  somEscudo: {fileID: 8300000, guid: af5e93f3563d18c49a1ed3f6bded7997, type: 3}
+  somPerdeVida: {fileID: 8300000, guid: 42b978c897040c149bcfbde231e564e9, type: 3}
 --- !u!50 &3055433436892236990
 Rigidbody2D:
   serializedVersion: 4

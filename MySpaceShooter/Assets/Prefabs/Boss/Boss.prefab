@@ -375,6 +375,7 @@ MonoBehaviour:
   tipoInimigo: 0
   itemRate: 0
   esperaTiro: 1
+  somTiro: {fileID: 8300000, guid: 0df62ccfc827bd040a780450236178ec, type: 3}
   meuRg: {fileID: 0}
   limiteHorizontal: 3.84
   posicaoTiro1: {fileID: 1936976989}

@@ -66,6 +66,7 @@ private void Atirar()
             if(esperaTiro <=0)
             {
                 var tiro = Instantiate(TiroGrande, transformTiro.position, transform.rotation);
+                AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);
                 Vector2 direcao = player.transform.position - tiro.transform.position;
                 //normalizando a velocidade do tiro.todos os eixos serão números inteiros
                 direcao.Normalize();

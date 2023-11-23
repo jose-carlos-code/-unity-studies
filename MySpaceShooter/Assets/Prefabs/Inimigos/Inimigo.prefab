@@ -58,6 +58,7 @@ MonoBehaviour:
   tipoInimigo: 1
   itemRate: 0.85
   esperaTiro: 1
+  somTiro: {fileID: 8300000, guid: 0df62ccfc827bd040a780450236178ec, type: 3}
   meuRB: {fileID: 0}
   meuTiro: {fileID: 807976972188097659, guid: f4b7a38cd69ff684c8d60bec6434175d, type: 3}
   posicaoTiro: {fileID: 6328035566396667475}

@@ -30,20 +30,20 @@ public class TiroController : MonoBehaviour
                 /*pegando o elemento script da classe inimigoController e 
                  * o método perdeVida*/
                 collision.GetComponent<InimigoPai>().perdeVida(1);
+                //criando o impacto
+                Instantiate(impacto, transform.position, transform.rotation);
 
-            }
+        }
         
             if (collision.CompareTag("Player"))
             {
-            /*pegando o elemento script da classe inimigoController e 
-             * o método perdeVida*/
-            collision.GetComponent<PlayerController>().perdeVida(1);
-            }
+                /*pegando o elemento script da classe inimigoController e 
+                 * o método perdeVida*/
+                collision.GetComponent<PlayerController>().perdeVida(1);
+                //criando o impacto
+                Instantiate(impacto, transform.position, transform.rotation);
+        }
             Destroy(gameObject);
-
-            //criando o impacto
-            Instantiate(impacto, transform.position,transform.rotation);
-
     }
         
 }
