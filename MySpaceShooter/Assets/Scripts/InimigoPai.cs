@@ -47,7 +47,10 @@ public class InimigoPai : MonoBehaviour
                 {
                     gerador.GanhandoPontos(this.pontos);
                     var player = FindObjectOfType<PlayerController>();
-                    player.addPoints(this.pontos);
+                    if (player)
+                    {
+                        player.addPoints(this.pontos);
+                    }
                 }
             }
 

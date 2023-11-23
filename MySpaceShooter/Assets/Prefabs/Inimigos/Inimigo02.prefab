@@ -220,7 +220,7 @@ MonoBehaviour:
   vidaInimigo: 2
   explosao: {fileID: 1659395700073182753, guid: f7cf60064742009439f7e4b96457d15d,
     type: 3}
-  pontos: 25
+  pontos: 40
   powerUp: {fileID: 5275331767976505294, guid: db692aeff8c1d5b4f8c6288f36f17d77, type: 3}
   tipoInimigo: 2
   itemRate: 0.89

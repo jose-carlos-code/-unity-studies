@@ -677,19 +677,9 @@ PrefabInstance:
       objectReference: {fileID: 1800819615}
     - target: {fileID: 3055433436892236991, guid: 6434724707946fb44b7697c4071cb5b9,
         type: 3}
-      propertyPath: qtdEscudos
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3055433436892236991, guid: 6434724707946fb44b7697c4071cb5b9,
-        type: 3}
       propertyPath: textShield
       value: 
       objectReference: {fileID: 1223989205}
-    - target: {fileID: 3055433436892236991, guid: 6434724707946fb44b7697c4071cb5b9,
-        type: 3}
-      propertyPath: vidaPlayer
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6434724707946fb44b7697c4071cb5b9, type: 3}
 --- !u!1001 &3868201164549698884

@@ -25,4 +25,13 @@ public class AnimacaoBoss : MonoBehaviour
         var meuPai = transform.parent.gameObject;
         Destroy(meuPai);
     }
+
+    public void morreBoss()
+    {
+        var gameManager = FindObjectOfType<GameManagerController>();
+        if (gameManager)
+        {
+            gameManager.Inicio();
+        }
+    }
 }

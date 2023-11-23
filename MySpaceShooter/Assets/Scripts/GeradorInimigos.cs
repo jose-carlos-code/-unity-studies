@@ -102,9 +102,9 @@ public class GeradorInimigos : MonoBehaviour
             int tentativas = 0;
 
             //controlando a quantidade de inimigos na tela
-            if(quantidade > 12)
+            if(quantidade > 8)
             {
-                quantidade = 12;
+                quantidade = 8;
             }
 
             //criando vários inimigos de uma só vez

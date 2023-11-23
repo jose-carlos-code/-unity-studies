@@ -33,6 +33,12 @@ public class BossController : InimigoPai
 
         //dando a minha vida inicial
         vidaInimigo = vidaMaxima;
+
+        //avisando para o meu canvas que a câmera dele é a câmera atual do jogo
+        //pegando o canvas do boss - avisando qual é a câmera
+        //passando a câmera do jogo
+        GetComponentInChildren<Canvas>().worldCamera = Camera.main;
+
     }
 
     
@@ -66,7 +72,7 @@ public class BossController : InimigoPai
         //checando se a minha vidad é menor do que ou igual a metade da vida
         if(vidaInimigo <= vidaMaxima / 2)
         {
-            delayTiro = 0.7f;
+            delayTiro = 0.85f;
         }
     }
 
