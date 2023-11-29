@@ -45,5 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectibles:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1658216879163889435, guid: 935633a400e44354b9699a449430ebba, type: 3}
+  - {fileID: 5371822930995615646, guid: e8ce423e596248546af05d3202e09a8e, type: 3}
+  - {fileID: 860939329520284294, guid: c8e0dbeedcbda0f44bf048f91343eb6b, type: 3}
+  timeGenerator: 3
+  amountCollectibles: 4
+  amountNow: 0
