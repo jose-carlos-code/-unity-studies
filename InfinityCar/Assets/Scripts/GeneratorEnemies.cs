@@ -36,16 +36,20 @@ public class GeneratorEnemies : MonoBehaviour
             if (level >= 4 && level < 6)
             { 
                 this.time = Random.Range(2f, 2.5f);
-            }else if(level >= 6 && level < 8)
+            }
+            else if(level >= 6 && level < 8)
             {
                 this.time = Random.Range(1.5f, 2f);
-            }else if(this.level <= 8)
-
+            }
+            else if(level >= 8) 
             {
-                this.time = Random.Range(1f, 2.5f);
-            }else if(level >= 8) {
                 this.time = Random.Range(0.6f, 1.3f);
             }
+            else
+            {
+            this.time = 2.5f;
+            }
+
         }
     }
 
