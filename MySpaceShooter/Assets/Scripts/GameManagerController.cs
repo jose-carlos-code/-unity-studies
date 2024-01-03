@@ -29,7 +29,7 @@ public class GameManagerController : MonoBehaviour
     IEnumerator PrimeiraCena()
     {
         yield return new WaitForSeconds(2f);
-        //to o código daqui só vai rodar depois de 2 segundos
+        //todo código daqui só vai rodar depois de 2 segundos
         SceneManager.LoadScene(0);
     }
 

@@ -17,7 +17,6 @@ public class Inimigo02Controller : InimigoPai
 
     void Start()
     {
-        
         meuRB = GetComponent<Rigidbody2D>();
         //meuRB.velocity = new Vector2(0f, velocidade);
         //pode se utilizar dessa forma
