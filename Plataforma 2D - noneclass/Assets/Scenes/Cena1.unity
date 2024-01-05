@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 26030775}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,7 +164,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &26030771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -225,7 +225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26030769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7, y: -3.78, z: 0}
+  m_LocalPosition: {x: -2.25, y: -3.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -272,6 +272,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   myRb: {fileID: 0}
+  amountJump: 2
+  speedY: 6
 --- !u!95 &26030775
 Animator:
   serializedVersion: 4
@@ -305,7 +307,7 @@ GameObject:
   - component: {fileID: 476689234}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
