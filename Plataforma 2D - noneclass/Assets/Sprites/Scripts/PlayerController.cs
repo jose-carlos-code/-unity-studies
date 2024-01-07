@@ -7,8 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 8f;
     [SerializeField] Rigidbody2D myRb;
     private Animator myAnim;
-    private bool isJump = true;
-    [SerializeField] private int amountJump = 1;
+    [SerializeField] private int amountJump;
     /*[SerializeField] private int totalJump = 1;*/
     [SerializeField] private float speedY = 6f; 
     void Start()
@@ -45,9 +44,8 @@ public class PlayerController : MonoBehaviour
         //retorna 1 se o valor for positivo, ou retorna 0 e -1 se o valor for negativo
         /*transform.localScale = new Vector3(Mathf.Sign(moveX), 1f ,1f); */
 
-        //EU ESTOU ME MOVENDO, ENTÃO EU POSSO MUDAR A ANIMAÇÃO
+        //EU ESTOU ME MOVENDO, ENTï¿½O EU POSSO MUDAR A ANIMAï¿½ï¿½O
       /*  myAnim.SetBool("Movement", true);*/
-        myAnim.SetBool("Fall", false);
 
         //TEM ESSE JEITO DE FAZER
 
@@ -56,21 +54,24 @@ public class PlayerController : MonoBehaviour
              myAnim.SetBool("Movement", false);
          }*/
 
-        //MAS TEM TAMBÉM TEM ESSE OUTRO JEITO
+        //MAS TEM TAMBï¿½M TEM ESSE OUTRO JEITO
 
         myAnim.SetBool("Movement", moveX != 0);
     }
 
     private void Jump()
     {
-        if (isJump && amountJump > 0)
+        var jump = Input.GetKeyDown(KeyCode.Space);
+
+        //definindo o parï¿½metro do Speedv com base na velocidade y do myRb 
+        myAnim.SetFloat("SpeedV", myRb.velocity.y);
+        if (jump && amountJump > 0)
         {
-             if (Input.GetKeyDown(KeyCode.Space))
-             {
-                myRb.velocity = new Vector2(myRb.velocity.x, speedY);
-                myAnim.SetBool("Jumping", true);
-                amountJump--;
-             }
+            myRb.velocity = new Vector2(myRb.velocity.x, speedY);
+            amountJump--;
+
+            //avisando que eu nï¿½o estou no chï¿½o
+            myAnim.SetBool("Fall", false);
         }  
     }
 
@@ -78,10 +79,8 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            myAnim.SetBool("Jumping", false);
-            myAnim.SetBool("Fall", true);
-            isJump = true;
             this.amountJump = 1;
+            myAnim.SetBool("Fall", true);
         }
     }
 
@@ -89,7 +88,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isJump = false;
+            myAnim.SetBool("Fall", false);
         }
     }
 }
