@@ -8,8 +8,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Rigidbody2D myRb;
     private Animator myAnim;
     [SerializeField] private int amountJump;
+    private BoxCollider2D boxCol;
     /*[SerializeField] private int totalJump = 1;*/
     [SerializeField] private float speedY = 6f; 
+
+    //elementos do raycast
+    [SerializeField] private LayerMask layerLevel;
     void Start()
     {
         //pegando o meu Rigidboy2D
@@ -17,12 +21,20 @@ public class PlayerController : MonoBehaviour
 
         //pegando o meu Animator
         myAnim = GetComponent<Animator>();
+
+        //pegando meu BoxCollider2D
+        boxCol = GetComponent<BoxCollider2D>();
     }
 
     void Update()
     {
         Move();
         Jump();
+    }
+
+    private void FixedUpdate()
+    {
+        IsGrounded();
     }
 
     private void Move()
@@ -90,5 +102,22 @@ public class PlayerController : MonoBehaviour
         {
             myAnim.SetBool("Fall", false);
         }
+    }
+
+    //JEITO IDEAL DE FAZER COLISÃO
+    //RAYCAST -> linha que aponta para algum lugar 
+    //quando ela colide com alguma coisa, ela nos dá uma informação
+
+    //Raycast de colisão no chão
+    private bool IsGrounded()
+    {
+        //criar o meu raycast       //pegando os limites do meu colisor, direção da linha, distância, layer que o raycast vai colidir
+        bool ground = Physics2D.Raycast(boxCol.bounds.center, Vector2.down, 1f, layerLevel);
+
+        Debug.Log(ground);
+
+
+        //fazer o debug da linha na proxima aula
+        return false;
     }
 }

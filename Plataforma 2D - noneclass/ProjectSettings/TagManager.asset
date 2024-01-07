@@ -14,9 +14,9 @@ TagManager:
   - UI
   - background
   - player
-  - 
-  - 
-  - 
+  - Entites
+  - Decoration
+  - Level
   - 
   - 
   - 
@@ -44,6 +44,15 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 352849595
+    locked: 0
+  - name: Level
+    uniqueID: 448723737
+    locked: 0
+  - name: Decoration
+    uniqueID: 2214373973
+    locked: 0
+  - name: Enemies
+    uniqueID: 3912800835
     locked: 0
   - name: Player
     uniqueID: 1306360853
