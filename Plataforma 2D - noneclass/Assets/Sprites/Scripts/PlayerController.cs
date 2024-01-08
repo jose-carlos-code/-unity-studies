@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        IsGrounded();
+        myAnim.SetBool("Fall", IsGrounded());
     }
 
     private void Move()
@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             this.amountJump = 1;
-            myAnim.SetBool("Fall", true);
+           /* myAnim.SetBool("Fall", true);*/
         }
     }
 
@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            myAnim.SetBool("Fall", false);
+            /*myAnim.SetBool("Fall", false);*/
         }
     }
 
@@ -111,13 +111,22 @@ public class PlayerController : MonoBehaviour
     //Raycast de colisão no chão
     private bool IsGrounded()
     {
-        //criar o meu raycast       //pegando os limites do meu colisor, direção da linha, distância, layer que o raycast vai colidir
-        bool ground = Physics2D.Raycast(boxCol.bounds.center, Vector2.down, 1f, layerLevel);
+        //criar o meu raycast       //pegando os limites do meu colisor partindo do centro, direção da linha, distância, layer que o raycast vai colidir
+        bool ground = Physics2D.Raycast(boxCol.bounds.center, Vector2.down, .5f, layerLevel);
 
-        Debug.Log(ground);
+        Color cor;
+        if (ground)
+        {
+            cor = Color.red;
+        }
+        else
+        {
+            cor = Color.green;
+        }
 
 
         //fazer o debug da linha na proxima aula
+        Debug.DrawRay(boxCol.bounds.center, Vector2.down * 0.5f, cor);
         return false;
     }
 }
