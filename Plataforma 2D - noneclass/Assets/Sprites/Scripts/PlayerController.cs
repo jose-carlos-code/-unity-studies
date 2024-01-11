@@ -35,6 +35,12 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         myAnim.SetBool("Fall", IsGrounded());
+
+        //se eu toquei no chão, eu reseto os pulos
+        if (IsGrounded())
+        {
+            amountJump = 1;
+        }
     }
 
     private void Move()
@@ -66,7 +72,7 @@ public class PlayerController : MonoBehaviour
              myAnim.SetBool("Movement", false);
          }*/
 
-        //MAS TEM TAMB�M TEM ESSE OUTRO JEITO
+        //MAS TEM TAMBÉM TEM ESSE OUTRO JEITO
 
         myAnim.SetBool("Movement", moveX != 0);
     }
@@ -82,7 +88,7 @@ public class PlayerController : MonoBehaviour
             myRb.velocity = new Vector2(myRb.velocity.x, speedY);
             amountJump--;
 
-            //avisando que eu n�o estou no ch�o
+            //avisando que eu não estou no chão
             myAnim.SetBool("Fall", false);
         }  
     }
@@ -91,7 +97,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            this.amountJump = 1;
+            /*this.amountJump = 1;*/
            /* myAnim.SetBool("Fall", true);*/
         }
     }
@@ -112,21 +118,16 @@ public class PlayerController : MonoBehaviour
     private bool IsGrounded()
     {
         //criar o meu raycast       //pegando os limites do meu colisor partindo do centro, direção da linha, distância, layer que o raycast vai colidir
-        bool ground = Physics2D.Raycast(boxCol.bounds.center, Vector2.down, .5f, layerLevel);
+        bool ground = Physics2D.Raycast(boxCol.bounds.center, Vector2.down, .6f, layerLevel);
 
-        Color cor;
-        if (ground)
-        {
-            cor = Color.red;
-        }
-        else
-        {
-            cor = Color.green;
-        }
+        /*Color cor;*/
 
+        return ground;
+            /* cor = Color.red;*/
+     
 
         //fazer o debug da linha na proxima aula
-        Debug.DrawRay(boxCol.bounds.center, Vector2.down * 0.5f, cor);
-        return false;
+        /*Debug.DrawRay(boxCol.bounds.center, Vector2.down * 0.5f, cor);
+        return false;*/
     }
 }
