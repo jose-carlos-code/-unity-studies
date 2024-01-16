@@ -93,14 +93,14 @@ public class PlayerController : MonoBehaviour
         }  
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+  /*  private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            /*this.amountJump = 1;*/
-           /* myAnim.SetBool("Fall", true);*/
+            *//*this.amountJump = 1;*/
+           /* myAnim.SetBool("Fall", true);*//*
         }
-    }
+    }*/
 
     private void OnCollisionExit2D(Collision2D collision)
     {

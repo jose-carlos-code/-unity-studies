@@ -17,6 +17,9 @@ public class CameraController : MonoBehaviour
     private void Move()
     {
         var player = FindObjectOfType<PlayerController>();
-        transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
+        if(player.transform.position.y > -5.9f)
+        {
+            transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
+        }
     }
 }
