@@ -9,6 +9,9 @@ public class Gnerator : MonoBehaviour
     //quantidade objetos coletáveis na cena
     [SerializeField] private int quatity = 1;
     [SerializeField] private int amountNow;
+    public int level;
+    public int baseLevel = 100;
+    private int pontos;
     void Start()
     {
         
@@ -19,13 +22,25 @@ public class Gnerator : MonoBehaviour
         GeneratorCollectibles();
     }
 
+    public void AddPoints(int pontos)
+    {
+        this.pontos += pontos * level;
+
+        if(this.pontos > baseLevel)
+        {
+
+            this.level++;
+            baseLevel *= 2;
+        }
+    }
+
     public void GeneratorCollectibles()
     {
         if (timeGenerator <= 0 && amountNow <= 0)
         {
             int tentativas = 0;
-            quatity *= 2;
-            if(quatity > 8)
+            quatity *= level * 2;
+            if (quatity > 8)
             {
                 quatity = 8;
             }
@@ -38,26 +53,31 @@ public class Gnerator : MonoBehaviour
                     break;
                 }
 
-                GameObject inimigoCriado;
-                Vector3 positionGenerator = new Vector3(Random.Range(-2.19f, 2.22f), 6.11f, 0f);
+                GameObject inimigoCriado = null;
                 float generatorCollectible = Random.Range(0, 2f);
                 if (generatorCollectible <= 1f)
                 {
                     inimigoCriado  = collectibles[0];
-                    amountNow++;
-                    //por algum motivo essas partes comentadas abaixo não estão pegando. ver isso amanhã 
-                    /*bool colisao = ChecaPosicao(positionGenerator, inimigoCriado.localScale);*/
+
                 }
 
                 else if(generatorCollectible > 1f)
                 {
                     inimigoCriado = collectibles[1];
-                    amountNow++;
-                   /* bool colisao = ChecaPosicao(positionGenerator, inimigoCriado.localScale);*/
-                }
 
+                }
+                Vector3 positionGenerator = new Vector3(Random.Range(-2.19f, 2.22f), 6.11f, 0f);
+                bool colisao = ChecaPosicao(positionGenerator, transform.localScale);
+
+                /*if (colisao)
+                {
+                    continue;
+                }*/
+
+                Instantiate(inimigoCriado, positionGenerator, transform.rotation);
+                amountNow++;
             }
-            timeGenerator = 3f;
+            timeGenerator = 2f;
         }   
         else
         {

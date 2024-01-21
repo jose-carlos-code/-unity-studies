@@ -23,7 +23,7 @@ public class GameManagerController : MonoBehaviour
     }
 
     //criando um método que roda depois de um certo tempo
-    //iss daqui de baixo é uma corrotina, vou aprender mais sobre isso depois
+    //isso daqui de baixo é uma corrotina, vou aprender mais sobre isso depois
     //uma corrotina é como se fosse um mini script dentro do meu script maior. 
     //é tipo um script simplificado
     IEnumerator PrimeiraCena()

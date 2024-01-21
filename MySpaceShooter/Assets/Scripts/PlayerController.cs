@@ -106,7 +106,6 @@ public class PlayerController : MonoBehaviour
             }
 
             AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);
-
         }
 
     }

@@ -21,8 +21,9 @@ public class Collectible : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Destroy(gameObject);
-            var gnerator = FindObjectOfType<Gnerator>();
-            gnerator.DecreaseQuantity();
+            var generator = FindObjectOfType<Gnerator>();
+            generator.AddPoints(10);
+            generator.DecreaseQuantity();
         }
     }
 }
