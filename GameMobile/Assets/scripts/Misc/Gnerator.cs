@@ -6,7 +6,7 @@ public class Gnerator : MonoBehaviour
 {
     [SerializeField] private GameObject[] collectibles;
     [SerializeField] private float timeGenerator = 4f;
-    //quantidade objetos coletáveis na cena
+    //quantidade objetos coletï¿½veis na cena
     [SerializeField] private int quatity = 1;
     [SerializeField] private int amountNow;
     public int level;
@@ -67,7 +67,7 @@ public class Gnerator : MonoBehaviour
 
                 }
                 Vector3 positionGenerator = new Vector3(Random.Range(-2.19f, 2.22f), 6.11f, 0f);
-                bool colisao = ChecaPosicao(positionGenerator, transform.localScale);
+                bool colisao = ChecaPosicao(positionGenerator, inimigoCriado.transform.localScale);
 
                 /*if (colisao)
                 {
