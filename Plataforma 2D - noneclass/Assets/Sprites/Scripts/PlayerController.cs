@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
     {
         var jump = Input.GetKeyDown(KeyCode.Space);
 
-        //definindo o par�metro do Speedv com base na velocidade y do myRb 
+        //definindo o parametro do Speedv com base na velocidade y do myRb 
         myAnim.SetFloat("SpeedV", myRb.velocity.y);
         if (jump && amountJump > 0)
         {
@@ -89,7 +89,7 @@ public class PlayerController : MonoBehaviour
             amountJump--;
 
             //avisando que eu não estou no chão
-            myAnim.SetBool("Fall", false);
+            /*myAnim.SetBool("Fall", false);*/
         }  
     }
 
