@@ -64,9 +64,14 @@ public class Player : MonoBehaviour
             crouched = Input.GetButton("Down");
             anim.SetBool("LookingUp", lookingUp);
             anim.SetBool("Crounched", crouched);
-            if(Input.GetButtonDown("Reloading"))
+            if(Input.GetButtonDown("Reload"))
             {
                 anim.SetBool("Reloading", true);
+            }
+
+            if((crouched || lookingUp || reloading) && onGround)
+            {
+                hForce = 0;
             }
 
         }
@@ -81,7 +86,12 @@ public class Player : MonoBehaviour
                
             }
             hForce = Input.GetAxisRaw("Horizontal");
-            rb2d.velocity = new Vector2(hForce * speed, rb2d.velocity.y);
+            if(!crouched && !lookingUp && !reloading)
+            {
+                rb2d.velocity = new Vector2(hForce * speed, rb2d.velocity.y);
+                anim.SetFloat("Speed", Mathf.Abs(hForce));
+
+            }
             if (hForce > 0 && !facinRight)
             {
                 Flip();
@@ -92,7 +102,7 @@ public class Player : MonoBehaviour
             }
             if (jump)
             {
-                anim.SetBool("Jump", false);
+                anim.SetBool("Jump", true);
                 jump = false;
                 //adicionando uma força no ridbody2d
                 rb2d.AddForce(Vector2.up * jumpForce);

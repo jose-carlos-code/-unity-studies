@@ -272,8 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 600
-  myAnim: {fileID: 0}
+  jumpForce: 700
 --- !u!70 &1177960813
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
