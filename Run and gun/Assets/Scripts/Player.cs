@@ -73,7 +73,6 @@ public class Player : MonoBehaviour
             {
                 hForce = 0;
             }
-
         }
     }
 
