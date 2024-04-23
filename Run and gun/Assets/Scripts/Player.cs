@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     private bool jump;
     private bool onGround = false;
     private Transform groundCheck;
-    private float hForce = 0f;
+    private float hForce = 1f;
     /*[SerializeField] private Animator myAnim;*/
 
     private bool isDead = false;
@@ -81,11 +81,7 @@ public class Player : MonoBehaviour
     {
         if (!isDead)
         {
-            if(rb2d.velocity.x == 0)
-            {
-               
-            }
-            hForce = Input.GetAxisRaw("Horizontal");
+            hForce = Input.GetAxis("Horizontal");
             if(!crouched && !lookingUp && !reloading)
             {
                 rb2d.velocity = new Vector2(hForce * speed, rb2d.velocity.y);
