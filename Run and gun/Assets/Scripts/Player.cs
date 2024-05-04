@@ -80,10 +80,11 @@ public class Player : MonoBehaviour
     {
         if (!isDead)
         {
-            hForce = Input.GetAxis("Horizontal");
+            hForce = Input.GetAxisRaw("Horizontal");
             if(!crouched && !lookingUp && !reloading)
             {
-                rb2d.velocity = new Vector2(hForce * speed, rb2d.velocity.y);
+                /*rb2d.velocity = new Vector2(hForce * speed, rb2d.velocity.y);*/
+                transform.position += new Vector3(hForce * speed, rb2d.velocity.y, 0f);
                 anim.SetFloat("Speed", Mathf.Abs(hForce));
 
             }
