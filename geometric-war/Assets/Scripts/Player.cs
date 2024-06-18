@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed = 2f;
     [SerializeField] private int amountJump = 2;
     [SerializeField] private int speedY = 6;
+    [SerializeField] private LayerMask layer;
+    [SerializeField] private BoxCollider2D myBox;
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
@@ -30,6 +32,11 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
        
+    }
+
+    private void IsGrounded()
+    {
+
     }
 
     private void Jump()
