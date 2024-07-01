@@ -5,6 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private float speed = 15f;
+    [SerializeField] private float initialSpeed;
+    [SerializeField] private float runSpeed;
     [SerializeField] private Rigidbody2D myRB;
     private Animator playerAnimator;
     private float horizontal;
@@ -14,6 +16,7 @@ public class Player : MonoBehaviour
     {
         myRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        initialSpeed = speed;
     }
 
     void Update()
@@ -21,7 +24,8 @@ public class Player : MonoBehaviour
         this.horizontal = Input.GetAxis("Horizontal");
         this.vertical = Input.GetAxis("Vertical");
         // uma forma de se fazer o personagem andar
-        /* transform.position += new Vector3(horizontal, vertical, 0f) * speed * Time.deltaTime;*/  
+        /* transform.position += new Vector3(horizontal, vertical, 0f) * speed * Time.deltaTime;*/
+        PlayerRun();
     }
 
     void FixedUpdate()
@@ -53,6 +57,19 @@ public class Player : MonoBehaviour
         if(move.x < 0)
         {
             transform.eulerAngles = new Vector2(0f, 180f);
+        }
+    }
+
+    private void PlayerRun()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = runSpeed;
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = initialSpeed;
         }
     }
 }
