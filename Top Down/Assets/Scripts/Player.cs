@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
         initialSpeed = speed;
     }
 
+    // comentário de teste
     void Update()
     {
         this.horizontal = Input.GetAxis("Horizontal");
