@@ -261,7 +261,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.021747112, y: 0.032620907}
+  m_Offset: {x: 0.021747112, y: -0.5}
   m_Size: {x: 0.5624056, y: 1.1276474}
   m_Direction: 0
 --- !u!95 &510306524
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transparenceValue: 0.6
-  transparenceFadeTime: 1.5
+  transparenceFadeTime: 0.5
 --- !u!1 &785583748
 GameObject:
   m_ObjectHideFlags: 0

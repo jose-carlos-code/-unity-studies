@@ -9,6 +9,8 @@ public class TransparentObject : MonoBehaviour
     [SerializeField] private float transparenceValue = 0.6f;
     [SerializeField] private float transparenceFadeTime = .4f;
 
+   
+
     private SpriteRenderer sprite;
     private void Awake()
     {
@@ -44,4 +46,6 @@ public class TransparentObject : MonoBehaviour
             yield return null;
         }
     }
+
+  
 }
