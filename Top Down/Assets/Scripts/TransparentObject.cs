@@ -7,7 +7,7 @@ public class TransparentObject : MonoBehaviour
 
     [Range(0, 1)] // limita o valor que pode ser atribuído a transparenceValue
     [SerializeField] private float transparenceValue = 0.6f;
-    [SerializeField] private float transparenceFadeTime = .4f;
+    [SerializeField] private float transparenceFadeTime = .25f;
 
    
 
