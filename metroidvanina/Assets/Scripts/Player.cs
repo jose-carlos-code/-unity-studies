@@ -6,8 +6,13 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField] float maxSpeed;
+    [SerializeField] Transform groundCheck;
+    [SerializeField] float jumpForce;
     [SerializeField] float speed;
     private Rigidbody2D rb;
+    private bool onGround;
+    private bool doubleJump;
+    private bool jump = false;
 
     [SerializeField] bool facingRight = true;
     void Start()
@@ -18,7 +23,21 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
+        onGround = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+        if (onGround)
+        {
+            doubleJump = false;
+        }
+
+        if(Input.GetButtonDown("Jump") && (onGround || !doubleJump))
+        {
+            jump = true;
+            if(!onGround && !doubleJump)
+            {
+                doubleJump = true;
+            }
+
+        }
     }
 
     private void FixedUpdate()
@@ -34,6 +53,15 @@ public class Player : MonoBehaviour
         else if (h < 0 && facingRight)
         {
             Flip();
+        }
+
+        if (jump)
+        {
+            //zerando a velocidade do player antes pulo
+            // porque segundo o professo, assim fica melhor
+            rb.velocity = Vector2.zero;
+            rb.AddForce(Vector2.up * jumpForce);
+            jump = false;
         }
     }
 
