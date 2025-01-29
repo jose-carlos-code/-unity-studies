@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speedJump = 5f;
     private bool onGround = true;
     [SerializeField]
     private Animator anim;
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                rb.velocity = Vector2.up * speed;
+                rb.velocity = Vector2.up * speedJump;
                 anim.SetBool("isJump", true);
             }
         }

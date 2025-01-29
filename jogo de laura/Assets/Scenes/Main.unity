@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 30621531}
   - component: {fileID: 30621530}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: pointsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,7 +216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.058300886, y: 0.90900004}
   m_AnchorMax: {x: 0.44700003, y: 1}
-  m_AnchoredPosition: {x: 1.0882292, y: -0.1071167}
+  m_AnchoredPosition: {x: 1.0882263, y: -0.1071167}
   m_SizeDelta: {x: 15.901001, y: 17.3022}
   m_Pivot: {x: 0.4799387, y: 0.55015314}
 --- !u!114 &30621530
@@ -691,9 +691,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1325005904, guid: 75cc685d8e8a9ab498774ddba636e5c6, type: 3}
+      propertyPath: speedJump
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1325005905, guid: 75cc685d8e8a9ab498774ddba636e5c6, type: 3}
       propertyPath: m_LinearDrag
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325005905, guid: 75cc685d8e8a9ab498774ddba636e5c6, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1313889273644925266, guid: 75cc685d8e8a9ab498774ddba636e5c6, type: 3}
       propertyPath: m_Name
@@ -810,6 +818,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5391805124388844566, guid: 55304c835e32b5b43942fba6c925d59b, type: 3}
+      propertyPath: textPoints
+      value: 
+      objectReference: {fileID: 30621530}
     - target: {fileID: 8141557693349995601, guid: 55304c835e32b5b43942fba6c925d59b, type: 3}
       propertyPath: m_Name
       value: GameController
