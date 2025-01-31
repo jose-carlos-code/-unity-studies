@@ -47,3 +47,7 @@ MonoBehaviour:
   cactus: {fileID: 6716627520970850687, guid: f329b0f2ba67c494e8b4d2574f558440, type: 3}
   timer: 1
   position: {x: 4.02, y: -2, z: 0}
+  points: 0
+  baseLevel: 5
+  level: 0
+  textPoints: {fileID: 0}
