@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - Destroyer
+  - Enemie
   layers:
   - Default
   - TransparentFX
