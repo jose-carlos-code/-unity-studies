@@ -122,6 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   speedJump: 6.5
+  positionCamera: {x: 0, y: 0, z: 0}
+  soundJump: {fileID: 8300000, guid: 8aab5b4ef6bd0c34aaf6154cc1297306, type: 3}
   anim: {fileID: 1313889273644925277}
 --- !u!50 &1325005905
 Rigidbody2D:

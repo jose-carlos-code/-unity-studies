@@ -13,15 +13,10 @@ public class GameController : MonoBehaviour
     [SerializeField] private Text textPoints;
     [SerializeField] private Text textLevel;
     [SerializeField] private float positionXInstance;
-
+    [SerializeField] private int level = 1;
     private float timerMin = 1f;
     private float timerMax = 4f;
-    private int level = 1;
-
-    void Start()
-    {
-
-    }
+    
 
     void Update()
     {

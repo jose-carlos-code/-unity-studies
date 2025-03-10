@@ -5,7 +5,7 @@ using UnityEngine;
 public class Cactus : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = 3f;
     [SerializeField] private GameController gameController;
     void Start()
     {
@@ -16,9 +16,6 @@ public class Cactus : MonoBehaviour
         int speedLevel = gameController.returnLevel();
 
         rb.velocity = Vector2.left * (speed + speedLevel);
-
-        Debug.Log("Velocidade do cactus " + speedLevel);
-
         
     }
 

@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float speedJump = 5f;
+    [SerializeField] private Vector3 positionCamera;
+    [SerializeField] private AudioClip soundJump;
     private bool onGround = true;
     [SerializeField]
     private Animator anim;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();   
+        rb = GetComponent<Rigidbody2D>();
+        positionCamera = Camera.main.transform.position;
     }
     void Update()
     {
@@ -21,6 +25,7 @@ public class Player : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 rb.velocity = Vector2.up * speedJump;
+                AudioSource.PlayClipAtPoint(soundJump, positionCamera);
                 anim.SetBool("isJump", true);
             }
         }
@@ -48,6 +53,7 @@ public class Player : MonoBehaviour
         if(collider.gameObject.tag == "Enemie")
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("start");
         }
     }
 }

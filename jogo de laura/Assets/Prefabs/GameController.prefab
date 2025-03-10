@@ -52,3 +52,4 @@ MonoBehaviour:
   textPoints: {fileID: 0}
   textLevel: {fileID: 0}
   positionXInstance: 0
+  level: 1
