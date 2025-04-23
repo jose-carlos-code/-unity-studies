@@ -62,7 +62,7 @@ private void Atirar()
         if(player)//ele só vai atirar se o player estiver na cena
         {
             esperaTiro-=Time.deltaTime;
-            if(esperaTiro <=0)
+            if(esperaTiro <= 0)
             {
                 var tiro = Instantiate(TiroGrande, transformTiro.position, transform.rotation);
                 AudioSource.PlayClipAtPoint(somTiro, Vector3.zero);

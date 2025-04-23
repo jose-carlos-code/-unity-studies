@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: mainlevbuild_73
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -904378276, guid: e2c61d0a2e25aee43bc9c513e58220b9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.34509805, g: 0.34509805, b: 0.34509805, a: 1}
   m_Transform:
     e00: 1
     e01: 0

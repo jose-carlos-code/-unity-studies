@@ -49,8 +49,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.eulerAngles = new Vector2(0f, 0f);
         }
-        if(move.x < 0)
-        {
+            if(move.x < 0)
+            {
             transform.eulerAngles = new Vector2(0f, 180f);
         }
     }
