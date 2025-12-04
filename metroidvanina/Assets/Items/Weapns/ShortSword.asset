@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094d91bde7ebfdf46b0a137e0671da21, type: 3}
+  m_Name: ShortSword
+  m_EditorClassIdentifier: 
+  itemID: 1
+  weaponName: Espada Curta
+  description: "Espada utilizada por ca\xE7adores novatos"
+  damage: 50
+  image: {fileID: -1622811766, guid: 1a211ee80b71f4046a94ded13cabc579, type: 3}
+  animation: {fileID: 7400000, guid: ea3717ca60b2a7f44ab39b2f7456d822, type: 2}
+  message: Pegou a espada curta

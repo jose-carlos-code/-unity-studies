@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         }
             if(move.x < 0)
             {
-            transform.eulerAngles = new Vector2(0f, 180f);
-        }
+                transform.eulerAngles = new Vector2(0f, 180f);
+            }
     }
 }

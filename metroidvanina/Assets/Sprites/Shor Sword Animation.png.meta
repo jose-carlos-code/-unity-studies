@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,784 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shor Sword Animation_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 89
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168820c125ba91444a98b12b1f7c057a
+      internalID: 1985766746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 88
+        width: 70
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c456f34af0ae0f848b2e5eb62926a77e
+      internalID: 2074474577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 90
+        width: 63
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cff488cecb5a214a9768a492f3dbd36
+      internalID: -1697599555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 88
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f72dc5a2323aba4a8a747dfa79dc606
+      internalID: -2110810766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_4
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 94
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41150f778ac1a24284b8f58e9b5d76e
+      internalID: -607086822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_5
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 94
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aac4f139af2eb41b307f44cf4b194e
+      internalID: -221686413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 94
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f03fee77ba9d94b8bea2f7d7e3d9dc
+      internalID: 1886484713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_7
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3007f58a21343cb4fb05a662bcc8dba7
+      internalID: -1645813635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 94
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecad847234883154db19c67741f67f5a
+      internalID: -106559480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b358da2a7e9a9f4e9be9dbdbb349611
+      internalID: 640967356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_10
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 94
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd1ff0952ed57b49bb479710b24987a
+      internalID: 1644951938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 94
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b6b245949d4a14d872ff9330b03691
+      internalID: 444923183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 72
+        width: 52
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbeb5af119dff3428cd28881d96607b
+      internalID: 92676840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 73
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d9c3e0f00160469ac8a7e8d577552
+      internalID: 318586427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 73
+        width: 52
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e36607a6bc97844f8cb5be44c2cf4c1
+      internalID: -690411116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 74
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6781dad86ba34e643833176e7662a4f0
+      internalID: 246965448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 73
+        width: 52
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d953ddb4b8767794aa25c5364058ea3f
+      internalID: -1285983644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 74
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc84f94addc0b84291ebc3aa6caf475
+      internalID: 1864629804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 71
+        width: 49
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a4de41150db14db4a1e1360d7ce31
+      internalID: -1728941504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_19
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 72
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877e554feb5b81d4299af7ca83737a06
+      internalID: 904296948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_20
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 19
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abafdf6e8dc3fe40b3ed89f1b9c9b7e
+      internalID: 168551457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 23
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f3a89cd837cc4fbb0bef94baf8691
+      internalID: -33610539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 42
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015f37e81959b9e468f1486a388fa8d4
+      internalID: 1435111372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 55
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f231cea8674f88742b395d53bc556693
+      internalID: -1371699188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 22
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa27e259e896644ca858e98235346b4
+      internalID: 1660410240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 43
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f6c5f34eb71a8458594b0891d655ee
+      internalID: 1459500930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_26
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 24
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b339d283ce732478d67581b0c50cbd
+      internalID: 345656363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 43
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4286566d4491ea94f8e1082b61a14156
+      internalID: -1897280827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 22
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c838355fbf88949a09580850ab8a15
+      internalID: -989940213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_29
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 41
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95243bc6e5cd91e4088a3002f508100a
+      internalID: -855154740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_30
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 22
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3c1bbb6f24ce04cb9930ab272c1d8c
+      internalID: 663300610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 22
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b21f9b731aa0e94f9caf27cf718b7a7
+      internalID: 369736338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_32
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 22
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09345454b39fbe04eaf84cc1e27a7bfc
+      internalID: -762156829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_33
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 22
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7184200d6f37f5499d24c7edea39620
+      internalID: -1260511799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_34
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 22
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee55f8c2055b824abb8c47c1ba3b6ed
+      internalID: -171172236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_35
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 20
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670879edf916ff441a87164cea4ac828
+      internalID: -752040462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shor Sword Animation_36
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc3d06a2ed6e644b8e5425b7f999f21
+      internalID: -592271540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +903,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shor Sword Animation_0: 1985766746
+      Shor Sword Animation_1: 2074474577
+      Shor Sword Animation_10: 1644951938
+      Shor Sword Animation_11: 444923183
+      Shor Sword Animation_12: 92676840
+      Shor Sword Animation_13: 318586427
+      Shor Sword Animation_14: -690411116
+      Shor Sword Animation_15: 246965448
+      Shor Sword Animation_16: -1285983644
+      Shor Sword Animation_17: 1864629804
+      Shor Sword Animation_18: -1728941504
+      Shor Sword Animation_19: 904296948
+      Shor Sword Animation_2: -1697599555
+      Shor Sword Animation_20: 168551457
+      Shor Sword Animation_21: -33610539
+      Shor Sword Animation_22: 1435111372
+      Shor Sword Animation_23: -1371699188
+      Shor Sword Animation_24: 1660410240
+      Shor Sword Animation_25: 1459500930
+      Shor Sword Animation_26: 345656363
+      Shor Sword Animation_27: -1897280827
+      Shor Sword Animation_28: -989940213
+      Shor Sword Animation_29: -855154740
+      Shor Sword Animation_3: -2110810766
+      Shor Sword Animation_30: 663300610
+      Shor Sword Animation_31: 369736338
+      Shor Sword Animation_32: -762156829
+      Shor Sword Animation_33: -1260511799
+      Shor Sword Animation_34: -171172236
+      Shor Sword Animation_35: -752040462
+      Shor Sword Animation_36: -592271540
+      Shor Sword Animation_4: -607086822
+      Shor Sword Animation_5: -221686413
+      Shor Sword Animation_6: 1886484713
+      Shor Sword Animation_7: -1645813635
+      Shor Sword Animation_8: -106559480
+      Shor Sword Animation_9: 640967356
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

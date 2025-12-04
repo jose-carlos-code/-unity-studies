@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public float fireRate;
 
     [SerializeField] float maxSpeed;
     [SerializeField] Transform groundCheck;
@@ -13,12 +14,19 @@ public class Player : MonoBehaviour
     private bool onGround;
     private bool doubleJump;
     private bool jump = false;
+    public Weapon weaponEquipped;
+    private Animator anim;
+    private Attack attack;
+    private float nextAttack;
+
 
     [SerializeField] bool facingRight = true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         speed = maxSpeed;
+        anim = GetComponent<Animator>();
+        attack = GetComponentInChildren<Attack>();
     }
 
     void Update()
@@ -37,6 +45,14 @@ public class Player : MonoBehaviour
                 doubleJump = true;
             }
 
+        }
+
+
+        if (Input.GetButtonDown("Fire1") && Time.time > nextAttack && weaponEquipped != null)
+        {
+            anim.SetTrigger("Attack");
+            attack.PlayAnimation(weaponEquipped.animation);
+            nextAttack = Time.time + fireRate;
         }
     }
 
@@ -73,5 +89,12 @@ public class Player : MonoBehaviour
         // invertendo a escala(scale) do meu component Player
         scale.x *= -1;
         transform.localScale = scale;
+    }
+
+
+    public void addWeapon(Weapon weapon)
+    {
+        weaponEquipped = weapon;
+        GetComponentInChildren<Attack>().SetWeapon(weaponEquipped.damage);
     }
 }
