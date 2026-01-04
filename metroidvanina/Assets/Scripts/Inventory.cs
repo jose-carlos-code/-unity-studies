@@ -7,6 +7,7 @@ public class Inventory : MonoBehaviour
     public static Inventory inventory;
     public List<Weapon> weapons;
     public List<Key> keys;
+    public List<ConsumableItem> items;
     void Start()
     {
         
@@ -21,6 +22,7 @@ public class Inventory : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        //não destrua meu inventário quando carregar uma nova cena
         DontDestroyOnLoad(gameObject);
     }
 
@@ -44,6 +46,27 @@ public class Inventory : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void AddItem(ConsumableItem item)
+    {
+        items.Add(item);
+    }
+
+    public void RemoveItem(ConsumableItem item)
+    {
+        for(int i = 0; i < items.Count; i++)
+        {
+            if (items[i] == item)
+            {
+                // removo o item da lista
+                // removo só o primeiro item encontrado na lista referente ao item passado por parâmetro
+                // pois pode haver mais de um item igual na lista, e ai eu quero remover só um
+                items.RemoveAt(i);
+                break;
+            }
+           
+        }
     }
 }
 

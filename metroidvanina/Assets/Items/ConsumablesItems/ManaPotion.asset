@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed768b157e92ccf4298ce0a10a2d3983, type: 3}
+  m_Name: ManaPotion
+  m_EditorClassIdentifier: 
+  id: 2
+  itemName: 
+  description: "Po\xE7\xE3o de mana"
+  image: {fileID: -1889119540, guid: 7c3475c76221f7f4db245c461a890417, type: 3}
+  healthGain: 0
+  manaGain: 50
+  message: "Pegou po\xE7\xE3o de mana"

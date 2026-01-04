@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 1
   itemName: "Po\xE7\xE3o de cura"
   description: "Po\xE7\xE3o utilizada para curar ferimentos leves"
-  image: {fileID: 0}
-  healthGain: 0
+  image: {fileID: -1402750142, guid: 7c3475c76221f7f4db245c461a890417, type: 3}
+  healthGain: 50
   manaGain: 0
-  message: 
+  message: "Pegou  po\xE7\xE3o de cura"

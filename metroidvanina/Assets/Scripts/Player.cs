@@ -9,6 +9,11 @@ public class Player : MonoBehaviour
     [SerializeField] float maxSpeed;
     [SerializeField] Transform groundCheck;
     [SerializeField] float jumpForce;
+
+    public ConsumableItem item;
+    public int maxHealth;
+    public int maxMana;
+
     [SerializeField] float speed;
     private Rigidbody2D rb;
     private bool onGround;
@@ -18,6 +23,9 @@ public class Player : MonoBehaviour
     private Animator anim;
     private Attack attack;
     private float nextAttack;
+    public int health;
+    public int mana;
+
 
 
     [SerializeField] bool facingRight = true;
@@ -45,6 +53,13 @@ public class Player : MonoBehaviour
                 doubleJump = true;
             }
 
+        }
+
+        if (Input.GetButtonDown("Fire3")) // botão do meio do mouse
+        {
+            // usar o item consumível e depois remover do inventário
+            UseItem(item);
+            Inventory.inventory.RemoveItem(item);
         }
 
 
@@ -92,9 +107,24 @@ public class Player : MonoBehaviour
     }
 
 
-    public void addWeapon(Weapon weapon)
+    public void AddWeapon(Weapon weapon)
     {
         weaponEquipped = weapon;
         GetComponentInChildren<Attack>().SetWeapon(weaponEquipped.damage);
+    }
+
+    public void UseItem(ConsumableItem item)
+    {
+        health += item.healthGain;
+        if(health > maxHealth)
+        {
+            health = maxHealth;
+        }
+
+        mana += item.manaGain;
+        if ((mana >= maxMana))
+        {
+            mana = maxMana;
+        }
     }
 }

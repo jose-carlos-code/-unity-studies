@@ -19,7 +19,7 @@ public class WeaponDrop : MonoBehaviour
         Player player = other.GetComponent<Player>();
         if(player != null)
         {
-            player.addWeapon(weapon);
+            player.AddWeapon(weapon);
             Inventory.inventory.AddWeapon(weapon);
             Destroy(gameObject);
         }
