@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public int MaxhealthPlayer = 100;
+    public int currentHealthPlayer = 100;
     [SerializeField] private Rigidbody2D myRB;
     [SerializeField] private float speed = 15f;
     [SerializeField] private Vector2 move;

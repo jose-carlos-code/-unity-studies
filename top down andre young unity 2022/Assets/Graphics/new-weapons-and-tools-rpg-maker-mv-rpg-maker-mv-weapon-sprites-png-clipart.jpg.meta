@@ -1,0 +1,2116 @@
+fileFormatVersion: 2
+guid: a860ef198a196a3489584ad4fc002ac5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4531ab834e7b45a69e807fbccdc8d
+      internalID: 750684090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519fb09f79cc754a9a242a6e3eeed75
+      internalID: -591260660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93536ae1b13e08c4bb1603eb07e2d3d7
+      internalID: 461825225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f339c79e15cc5164886d29bfc2a7fb61
+      internalID: -786669210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea35c364bd2ffa0498b6fe375bde42b4
+      internalID: 1102917781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d54145499451644a9021b250b71f65
+      internalID: -1567216173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850f6f2f388cb0b41ab0d9684f8e322a
+      internalID: -155847694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0d1e7740d477843bf45c08e8436400
+      internalID: 1604025031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_8
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b303351f76d12e43b349290cba5cc00
+      internalID: 810392067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ced5e4c37b4dc49ad325d70f2d401b
+      internalID: 1733493726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f11abddf859d47955a740db4be7fb
+      internalID: -2084010194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_11
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b0099f5a19ba449d2fbcdafaec882
+      internalID: 726405822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_12
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 288
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab45b44c7fdc7ba43bd8da92ca38787a
+      internalID: -777416986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f0766bf58fd644ad3e990d2d07437
+      internalID: -172287002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaafb2103d928c4db4669fb81a8c019
+      internalID: 1056848819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09216593dae643240b62bb7a4bb38fb4
+      internalID: -1741262367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292b7e3b95e026c499face2cc5dcdad7
+      internalID: 1338230634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d074a9525b9b14e872db3be4c40de8
+      internalID: 1324325028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826aa87dc8737de48a035ed8009220f2
+      internalID: -348642452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42aa0f516e262a48a5ccdb061ac9c92
+      internalID: -996120080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63497b86151db04bbffcb7571c928f6
+      internalID: 1933803666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d0ea1bdcfdf5848be0698a4af8d90c
+      internalID: 1004958238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_22
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5748456a17df44b00d45e578255cf
+      internalID: 1274567735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_23
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f93d2308b614af479eaa9113580cbd0
+      internalID: 1271168428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_24
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7104c6e25a2e54f9b35010c268588c
+      internalID: 1725265181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_25
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 240
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27f5e90a19f8604395f4c96c311bf5a
+      internalID: 680789695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a059935d65e06a4994ab63403c77d81
+      internalID: -68711957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3d09f737c928f41bb8471475da4cda
+      internalID: 835066820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_28
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83635ca9849e2b4ca37503a7904db28
+      internalID: 2018539245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_29
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bee49e3376b61428a7a7c6afd8f561
+      internalID: 186008644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_30
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb36d87d6d4ffb43b3197f39d83df0b
+      internalID: -1839419612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b07593656060c4495fbf2f8af4cd13
+      internalID: -1469449219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b685f1eea2c28af40881634d2cd4b852
+      internalID: 879096399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_33
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b33023890fd1a4480ba5716b0e1c5b
+      internalID: -159326574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_34
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1309daaea1e514a46ab3b36b6940c951
+      internalID: 1627266031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_35
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c1191979f166344b1f1d7b3a6b2723
+      internalID: 1134273864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fcf343d092644eb6e1c4a80111190
+      internalID: 1028425331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_37
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bfab7b68bad3b43ab9a347df7a1e3c
+      internalID: -890641465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_38
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 192
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64f559c5bc8468469427c7095f5270a
+      internalID: -21589651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a9971a9acd3c743a345b8b1ad27ae3
+      internalID: -988158892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96a03d479ebf0446b4a36ad6ebedac6
+      internalID: 2059130121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_41
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ef6002fa6cbff499bc59ca3d1417c1
+      internalID: -681784646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_42
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c01934a0ca574db896e2a8a2986bf
+      internalID: 1350505449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_43
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a189a2f8788457c4a8e3ba96304759f3
+      internalID: 1597520796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_44
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac66a586d9ec6184782ed67a971d01c3
+      internalID: -1788063939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_45
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 146
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815219e85313c7546bb12f99ef01a626
+      internalID: 1587149421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9547b1f752384b841ac08eb96de22944
+      internalID: 1369837915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_47
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7592c1bfc7a4c604cb4f9c2736cb112f
+      internalID: 1471151432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_48
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf12d5d84da849d4091f680baec994c7
+      internalID: 532111202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_49
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1192a389e7e9a904b8e6f0dd8d5732af
+      internalID: 810942596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_50
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36e5ddc3a5ec064d86a8f8cc5cc6c18
+      internalID: 95049472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_51
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8949aac1972e574aa6328276e51d0f1
+      internalID: 1139093727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66accd256708d3d40aa10f2aa36bfe36
+      internalID: 2061807298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_53
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bdf779fe8aec346bb5bb976f590da8
+      internalID: -396167639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_54
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4c0ef4a8ce8cb44a7433fac498c85d
+      internalID: -1813703686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_55
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852e285ff7b714740abb6d4235023c08
+      internalID: 660857580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_56
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cafe4051d78424b93bdeec969fd386
+      internalID: -952483863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_57
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b844e79db5a202438369dcc3219d853
+      internalID: 959156252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_58
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0be4551a322cd7469d68d3a9024cb63
+      internalID: -360927758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_59
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f0079a3d0a214796c49e13c14af50
+      internalID: -1697439756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_60
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97001e001dae3b49bfcfd911771a94f
+      internalID: 1161972726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_61
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580947366b8c8ee4e8a9b77f5bb9f4ec
+      internalID: -1959726348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_62
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85742ca919179424ab9adab70a3468a2
+      internalID: -1237276925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_63
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c865d163cf263e441ac1d9355f5fc97c
+      internalID: 2077978296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_64
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 96
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85364a1c7eb340448b430b89f86b46e6
+      internalID: -464409056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7865fd3345daa74ba18a31a0cbb2c0d
+      internalID: 1297298782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_66
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1871b1fd1d76a4d91e17e3a0abb4f3
+      internalID: 1266000299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_67
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fe8064e8da13e4dbd75faf2e763ddc
+      internalID: -774998200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_68
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4090765182221174c8fa2003425a8d2a
+      internalID: -347813052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_69
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d94af173da0f924a81a18f046ed2a8b
+      internalID: 1708068776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_70
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d2a5593baf14344b79591fedbb7f43
+      internalID: 1427565950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_71
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0918fad40bab8da41b81987bff1e837e
+      internalID: 595988706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_72
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b8b5afbef6b6419a9e82a83ccffe5
+      internalID: 683193909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_73
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24434df4b98c8cf46bfd9cb493e8930c
+      internalID: -1181738746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_74
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54552bb0d91c7f64786dc3f943a59b24
+      internalID: 728091611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_75
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e501b31f75fce8b48ae58fbfba1ebea6
+      internalID: 499621082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_76
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44905eeeb4689142844dcfc03c88d1d
+      internalID: -341228526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_77
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 48
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8e09dc28dd26144b471dd1fe4e2731
+      internalID: 2015074390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b555819e7973740b693966372d58af
+      internalID: 537032740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_79
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8109917c4471dea41ae86bb87662fe3d
+      internalID: -1157745170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_80
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf2cbc66b182ec499906ba31592d5c9
+      internalID: -1594680739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_81
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e16b1c554f98044aaa1a349034d1ba
+      internalID: -846842096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_82
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc4750dcc2609b4992236cbffea9dc2
+      internalID: 866576383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_83
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235fd697b34df3e498f9072a0873d08e
+      internalID: 1090346724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_84
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f140da72b1242e44ab9b42115461dce1
+      internalID: -475448593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_85
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f651b9fd20579d46b148b5b889ef278
+      internalID: 1696110118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_86
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bb0d988d9bde645be3c3520946fa11
+      internalID: -21255849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_87
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a1577613a00940af30097e5dc07ad
+      internalID: 824715915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_88
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9704481f15cb5be4e9a033c34cb375ff
+      internalID: -644010634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_89
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb06bf89830694498badb65109e4a58
+      internalID: -642446708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_90
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5596eee07abed84c93f78e18fe427bf
+      internalID: 1851758695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_0: 750684090
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_1: -591260660
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_10: -2084010194
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_11: 726405822
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_12: -777416986
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_13: -172287002
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_14: 1056848819
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_15: -1741262367
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_16: 1338230634
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_17: 1324325028
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_18: -348642452
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_19: -996120080
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_2: 461825225
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_20: 1933803666
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_21: 1004958238
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_22: 1274567735
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_23: 1271168428
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_24: 1725265181
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_25: 680789695
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_26: -68711957
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_27: 835066820
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_28: 2018539245
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_29: 186008644
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_3: -786669210
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_30: -1839419612
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_31: -1469449219
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_32: 879096399
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_33: -159326574
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_34: 1627266031
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_35: 1134273864
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_36: 1028425331
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_37: -890641465
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_38: -21589651
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_39: -988158892
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_4: 1102917781
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_40: 2059130121
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_41: -681784646
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_42: 1350505449
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_43: 1597520796
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_44: -1788063939
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_45: 1587149421
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_46: 1369837915
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_47: 1471151432
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_48: 532111202
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_49: 810942596
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_5: -1567216173
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_50: 95049472
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_51: 1139093727
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_52: 2061807298
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_53: -396167639
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_54: -1813703686
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_55: 660857580
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_56: -952483863
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_57: 959156252
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_58: -360927758
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_59: -1697439756
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_6: -155847694
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_60: 1161972726
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_61: -1959726348
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_62: -1237276925
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_63: 2077978296
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_64: -464409056
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_65: 1297298782
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_66: 1266000299
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_67: -774998200
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_68: -347813052
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_69: 1708068776
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_7: 1604025031
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_70: 1427565950
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_71: 595988706
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_72: 683193909
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_73: -1181738746
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_74: 728091611
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_75: 499621082
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_76: -341228526
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_77: 2015074390
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_78: 537032740
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_79: -1157745170
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_8: 810392067
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_80: -1594680739
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_81: -846842096
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_82: 866576383
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_83: 1090346724
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_84: -475448593
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_85: 1696110118
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_86: -21255849
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_87: 824715915
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_88: -644010634
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_89: -642446708
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_9: 1733493726
+      new-weapons-and-tools-rpg-maker-mv-rpg-maker-mv-weapon-sprites-png-clipart_90: 1851758695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
