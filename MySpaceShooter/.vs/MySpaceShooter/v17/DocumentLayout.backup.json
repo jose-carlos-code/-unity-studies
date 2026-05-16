@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5B14B0-3F59-F5CA-19EA-A9BE6ED33491}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\myspaceshooter\\assets\\scripts\\geradorinimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5B14B0-3F59-F5CA-19EA-A9BE6ED33491}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\geradorinimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5B14B0-3F59-F5CA-19EA-A9BE6ED33491}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MySpaceShooter\\assets\\scripts\\inimigocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5B14B0-3F59-F5CA-19EA-A9BE6ED33491}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inimigocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5B14B0-3F59-F5CA-19EA-A9BE6ED33491}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MySpaceShooter\\assets\\scripts\\inimigopai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5B14B0-3F59-F5CA-19EA-A9BE6ED33491}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inimigopai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InimigoPai.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\Assets\\Scripts\\InimigoPai.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InimigoPai.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\Assets\\Scripts\\InimigoPai.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InimigoPai.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:12:41.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeradorInimigos.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\Assets\\Scripts\\GeradorInimigos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GeradorInimigos.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\Assets\\Scripts\\GeradorInimigos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GeradorInimigos.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:12:29.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InimigoController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\Assets\\Scripts\\InimigoController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InimigoController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MySpaceShooter\\Assets\\Scripts\\InimigoController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InimigoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:09:45.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

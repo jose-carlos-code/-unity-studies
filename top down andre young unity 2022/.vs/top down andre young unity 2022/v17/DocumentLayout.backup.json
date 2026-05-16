@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\entitystaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entitystaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\enemiebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemiebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityStaps.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EntityStaps.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EntityStaps.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EntityStaps.cs",
+              "RelativeToolTip": "Assets\\scripts\\EntityStaps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:13:49.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Weapon.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Weapon.cs",
+              "RelativeToolTip": "Assets\\scripts\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T15:37:35.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\InventoryManager.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\InventoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:43:03.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemieBehavior.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EnemieBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemieBehavior.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EnemieBehavior.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemieBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T21:55:27.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T21:43:49.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

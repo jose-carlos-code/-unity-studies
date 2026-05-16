@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\enemiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\genearteenemiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\genearteenemiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\meutopdown2d\\assets\\scripts\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\guncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HudManager.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\HudManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HudManager.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\HudManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HudManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:27:40.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:25:10.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenearteEnemiesController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GenearteEnemiesController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GenearteEnemiesController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GenearteEnemiesController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GenearteEnemiesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:05:36.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemieController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\EnemieController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemieController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\EnemieController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:55:41.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FIreController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\FIreController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FIreController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\FIreController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FIreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:55:45.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GunController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GunController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GunController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GunController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GunController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:55:42.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:55:17.897Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
