@@ -21,6 +21,10 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         MoveWASD();
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            InvontoryManager.instance.DiscardWeapon();
+        }
     }
 
     void MoveWASD()

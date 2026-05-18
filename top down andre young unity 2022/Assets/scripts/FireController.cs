@@ -17,4 +17,13 @@ public class FireController : MonoBehaviour
     {
         Destroy(gameObject, 3.5f);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemie"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
+

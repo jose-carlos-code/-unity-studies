@@ -11,6 +11,9 @@ public class InvontoryManager : MonoBehaviour
     public GameObject inv_background;
     public GameObject inv_slot;
 
+
+    public int active_slot;
+
     public List<Weapon> inventory_;
     int selected_slot = 0;
 
@@ -42,7 +45,6 @@ public class InvontoryManager : MonoBehaviour
 
     public void RefreshInentory()
     {
-        Debug.Log("PONTOS: " + gold_coins);
 
         gold_text.text = gold_coins.ToString();
 
@@ -62,10 +64,19 @@ public class InvontoryManager : MonoBehaviour
         {
             // instancia o mesmo prefab sempre, mas com o sprite diferente
             GameObject slot_instance = Instantiate(inv_slot, inv_background.transform);
-            slot_instance.GetComponentInChildren<Image>().sprite = w.weapon_icon;
-            slot_instance.GetComponentInChildren<Outline>().enabled = false;
+            if(w == null)
+            {
+                slot_instance.GetComponentInChildren<Image>().enabled = false; 
+            }
+            else
+            {
+                slot_instance.GetComponentInChildren<Image>().enabled = true;
+                slot_instance.GetComponentInChildren<Image>().sprite = w.weapon_icon;
+                slot_instance.GetComponentInChildren<Outline>().enabled = false;
 
-            if (selected_slot + 1 == hotKey_) slot_instance.GetComponentInChildren<Outline>().enabled = true;
+                if (selected_slot + 1 == hotKey_) slot_instance.GetComponentInChildren<Outline>().enabled = true;
+            }
+                
 
             slot_instance.GetComponentInChildren<Text>().text = hotKey_.ToString();
             hotKey_++;
@@ -75,7 +86,8 @@ public class InvontoryManager : MonoBehaviour
 
     void SelectWeapon(int hotKey)
     {
-        Debug.Log(inventory_[hotKey].weapon_name);
+
+        active_slot = hotKey;
         Weapon selected_weapon = inventory_[hotKey];
         player_stats.attack_damage = selected_weapon.weapon_damage;
         player_stats.attack_speed = selected_weapon.weapon_speed;
@@ -105,6 +117,14 @@ public class InvontoryManager : MonoBehaviour
         RefreshInentory();
     }
 
-
+    public void DiscardWeapon()
+    {
+        if(active_slot != 0)
+        {
+            inventory_[active_slot] = null;
+            SelectWeapon(0);
+            RefreshInentory();
+        }
+    }
 }
  

@@ -17,3 +17,4 @@ MonoBehaviour:
   weapon_speed: 0.2
   weapon_range: 2
   weapon_icon: {fileID: 1004958238, guid: a860ef198a196a3489584ad4fc002ac5, type: 3}
+  weapon_value: 20

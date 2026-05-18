@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Slot
   - Fire1
+  - Enemie
+  - ShopItem
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemie
   - Water
   - UI
   - 
