@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FireController : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float speedFire = 10f;
+    public float projectileDamage = 5f;
 
     void Start()
     {
@@ -15,15 +17,18 @@ public class FireController : MonoBehaviour
 
     void Update()
     {
-        Destroy(gameObject, 3.5f);
+        //Destroy(gameObject, 3.5f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemie"))
+        if (collision.CompareTag("Enemie") || (collision.CompareTag("Player") && collision.GetComponent<PlayerMovement>().isPlayer == true))
         {
-            Destroy(gameObject);
+            collision.GetComponent<EntityStaps>().RemoveHp(projectileDamage);
+             Destroy(gameObject);           
         }
     }
+
+   
 }
 

@@ -19,7 +19,7 @@ public class EntityStaps : MonoBehaviour
 
     void Update()
     {
-        Death();
+       
     }
 
     void Death()
@@ -33,5 +33,11 @@ public class EntityStaps : MonoBehaviour
             }
             Destroy(gameObject);
         }
+    }
+
+    public void RemoveHp(float hp_to_remove)
+    {
+        hp -= hp_to_remove;
+        Death();
     }
 }

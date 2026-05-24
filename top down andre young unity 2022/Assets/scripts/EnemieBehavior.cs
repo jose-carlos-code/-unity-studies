@@ -30,7 +30,7 @@ public class EnemieBehavior : MonoBehaviour
     {
         if (collision.CompareTag("Fire1"))
         {
-            EnemieStaps.hp -= 20;
+            EnemieStaps.RemoveHp(20);
             
         }
 

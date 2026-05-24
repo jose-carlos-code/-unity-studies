@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
  
     public Transform postionFire1;
     public EntityStaps entity_stats;
+    public bool isPlayer;
+
     void Start()
     {
         entity_stats = gameObject.GetComponent<EntityStaps>();
@@ -39,8 +41,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            isPlayer = true;
             GameObject fireInstance = Instantiate(fire1, postionFire1.position, Quaternion.identity);
             fireInstance.GetComponent<FireController>().speedFire = entity_stats.attack_speed;
+            isPlayer = false;
         }
     }
 }
