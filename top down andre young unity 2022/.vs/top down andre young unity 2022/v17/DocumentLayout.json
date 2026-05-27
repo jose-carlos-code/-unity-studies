@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\rangedbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\rangedbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rangedbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\entitystaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entitystaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\enemiebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemiebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\misc\\openstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\misc\\openstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\enemiebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemiebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\assets\\scripts\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B733545-4110-3AC0-D552-3736BF154D11}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,14 +56,105 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\RangedBehavior.cs",
               "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\RangedBehavior.cs",
               "RelativeToolTip": "Assets\\scripts\\RangedBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T16:00:20.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "openStore.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Misc\\openStore.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Misc\\openStore.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Misc\\openStore.cs",
+              "RelativeToolTip": "Assets\\scripts\\Misc\\openStore.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:52:19.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\InventoryManager.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\InventoryManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwHwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:43:03.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Weapon.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Weapon.cs",
+              "RelativeToolTip": "Assets\\scripts\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T15:37:35.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EnemieBehavior.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EnemieBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemieBehavior.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EnemieBehavior.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemieBehavior.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T21:10:50.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityStaps.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EntityStaps.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EntityStaps.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EntityStaps.cs",
+              "RelativeToolTip": "Assets\\scripts\\EntityStaps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:13:49.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FireController.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\FireController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\FireController.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\FireController.cs",
+              "RelativeToolTip": "Assets\\scripts\\FireController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:21:03.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T21:43:49.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ShopItem.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\ShopItem.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ShopItem.cs",
@@ -72,94 +163,6 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAiwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T14:46:06.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "openStore.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Misc\\openStore.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Misc\\openStore.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Misc\\openStore.cs",
-              "RelativeToolTip": "Assets\\scripts\\Misc\\openStore.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:52:19.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InventoryManager.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\InventoryManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\InventoryManager.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\InventoryManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\InventoryManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T23:43:03.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Weapon.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\Weapon.cs",
-              "RelativeToolTip": "Assets\\scripts\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T15:37:35.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemieBehavior.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EnemieBehavior.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\EnemieBehavior.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EnemieBehavior.cs",
-              "RelativeToolTip": "Assets\\scripts\\EnemieBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T21:10:50.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EntityStaps.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EntityStaps.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\EntityStaps.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\EntityStaps.cs",
-              "RelativeToolTip": "Assets\\scripts\\EntityStaps.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T17:13:49.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FireController.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\FireController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\FireController.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\FireController.cs",
-              "RelativeToolTip": "Assets\\scripts\\FireController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T17:21:03.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\GitHub\\-unity-studies\\top down andre young unity 2022\\Assets\\scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T21:43:49.862Z",
-              "EditorCaption": ""
             }
           ]
         }

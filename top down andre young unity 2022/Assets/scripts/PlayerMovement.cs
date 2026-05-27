@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
  
     public Transform postionFire1;
     public EntityStaps entity_stats;
-    public bool isPlayer;
 
     void Start()
     {
@@ -41,10 +40,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            isPlayer = true;
             GameObject fireInstance = Instantiate(fire1, postionFire1.position, Quaternion.identity);
             fireInstance.GetComponent<FireController>().speedFire = entity_stats.attack_speed;
-            isPlayer = false;
+            FireController fc = fireInstance.GetComponent<FireController>();
+            fc.speedFire = entity_stats.attack_speed;
+            fc.isPlayerProjectile = true; // ← marca que foi o player que atirou
         }
     }
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\GitHub\\-unity-studies\\Estudos andre yung unity 2022.3.62f3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\estudos andre yung unity 2022.3.62f3\\assets\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|solutionrelative:assets\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\Estudos andre yung unity 2022.3.62f3\\assets\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|solutionrelative:assets\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\estudos andre yung unity 2022.3.62f3\\assets\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|solutionrelative:assets\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B4DAF8-8B8E-9DA0-E928-9CC5D2BC8570}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\Estudos andre yung unity 2022.3.62f3\\assets\\entitystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EnemyBehavior.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\Estudos andre yung unity 2022.3.62f3\\Assets\\EnemyBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyBehavior.cs",
@@ -46,17 +46,18 @@
               "RelativeToolTip": "Assets\\EnemyBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T15:07:23.156Z"
+              "WhenOpened": "2026-01-10T15:07:23.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MoveController.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\Estudos andre yung unity 2022.3.62f3\\Assets\\MoveController.cs",
               "RelativeDocumentMoniker": "Assets\\MoveController.cs",
               "ToolTip": "C:\\GitHub\\-unity-studies\\Estudos andre yung unity 2022.3.62f3\\Assets\\MoveController.cs",
               "RelativeToolTip": "Assets\\MoveController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T14:44:58.419Z",
               "EditorCaption": ""
