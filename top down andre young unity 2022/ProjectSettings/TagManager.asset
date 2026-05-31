@@ -8,6 +8,7 @@ TagManager:
   - Fire1
   - Enemie
   - ShopItem
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Enemie
   - Water
   - UI
-  - 
+  - ProjectTileEnemie
   - 
   - 
   - 

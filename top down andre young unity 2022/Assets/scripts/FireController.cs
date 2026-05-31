@@ -9,16 +9,21 @@ public class FireController : MonoBehaviour
     public float speedFire = 10f;
     public float projectileDamage = 5f;
     public bool isPlayerProjectile = false; 
+    public float projectTileLifeSpan = 3.5f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(-speedFire, 0f); 
+        if (isPlayerProjectile)
+        {
+            rb.velocity = new Vector2((isPlayerProjectile ? -speedFire : speedFire), 0f); 
+
+        }
     }
 
     void Update()
     {
-        //Destroy(gameObject, 3.5f);
+        Destroy(gameObject, projectTileLifeSpan);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,6 +36,9 @@ public class FireController : MonoBehaviour
         else if (!isPlayerProjectile && collision.CompareTag("Player"))
         {
             collision.GetComponent<EntityStaps>()?.RemoveHp(projectileDamage);
+            Destroy(gameObject);
+        }else if(collision.gameObject.tag == "Wall")
+        {
             Destroy(gameObject);
         }
     }

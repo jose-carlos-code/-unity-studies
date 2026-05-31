@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1268007565189648702}
   - component: {fileID: 7740935170687809792}
   - component: {fileID: 1266160731241289623}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EnemieProjectile
   m_TagString: Fire1
   m_Icon: {fileID: 0}
@@ -102,6 +102,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   speedFire: 10
   projectileDamage: 5
+  isPlayerProjectile: 0
 --- !u!50 &7740935170687809792
 Rigidbody2D:
   serializedVersion: 4
@@ -144,7 +145,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

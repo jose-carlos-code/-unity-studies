@@ -11,6 +11,7 @@ public class openStore : MonoBehaviour
     GameObject player_obj;
     public ShopItem shop_item_prefab;
     public GameObject shop_bg;
+    private float dist;
 
     public List<Weapon> weapons_sold;
 
@@ -24,7 +25,11 @@ public class openStore : MonoBehaviour
 
     void Update()
     {
-        float dist = Vector2.Distance(transform.position, player_obj.transform.position);
+        if (player_obj != null)
+        {
+           dist  = Vector2.Distance(transform.position, player_obj.transform.position);
+        }
+        
         if (dist <= 3.7f)
         {
             store_warning.SetActive(true);

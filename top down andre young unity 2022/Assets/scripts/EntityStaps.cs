@@ -10,6 +10,7 @@ public class EntityStaps : MonoBehaviour
     public float speed = 5;
     public float attack_damage;
     public float attack_speed;
+    public float attack_life;
     public float attack_range;
     public int gold_carry = 60;
     void Start()

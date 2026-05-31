@@ -41,10 +41,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject fireInstance = Instantiate(fire1, postionFire1.position, Quaternion.identity);
-            fireInstance.GetComponent<FireController>().speedFire = entity_stats.attack_speed;
-            FireController fc = fireInstance.GetComponent<FireController>();
-            fc.speedFire = entity_stats.attack_speed;
-            fc.isPlayerProjectile = true; // ← marca que foi o player que atirou
+            fireInstance.GetComponent<FireController>().speedFire = entity_stats.attack_range;
+            fireInstance.GetComponent<FireController>().projectTileLifeSpan = entity_stats.attack_life;
+
+            fireInstance.GetComponent<FireController>().isPlayerProjectile = true; // ← marca que foi o player que atirou
         }
     }
 }

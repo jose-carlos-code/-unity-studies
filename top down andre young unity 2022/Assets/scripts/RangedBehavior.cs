@@ -20,17 +20,21 @@ public class RangedBehavior : MonoBehaviour
 
     void Update()
     {
-        if (canAttack)
+        if (canAttack && player_object != null)
         {
             GameObject projectile_instance = Instantiate(projectile_, transform.position, Quaternion.identity);
-            projectile_instance.GetComponent<FireController>().projectileDamage = entityStaps.attack_damage; 
+            projectile_instance.GetComponent<FireController>().projectileDamage = entityStaps.attack_damage;
+
+            projectile_instance.GetComponent<FireController>().projectTileLifeSpan = entityStaps.attack_life;
+
             Vector2 projetc_direction = player_object.transform.position - transform.position;
             projetc_direction.Normalize();
 
             Rigidbody2D rbProjectTile = projectile_instance.GetComponent<Rigidbody2D>();
             rbProjectTile.AddForce(projetc_direction * entityStaps.attack_range,
                 ForceMode2D.Impulse);
-           
+  
+          
 
 
             canAttack = false;
