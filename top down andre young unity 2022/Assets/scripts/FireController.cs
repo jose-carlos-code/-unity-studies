@@ -6,7 +6,7 @@ using UnityEngine;
 public class FireController : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float speedFire = 10f;
+    public float speedFire = 2f;
     public float projectileDamage = 5f;
     public bool isPlayerProjectile = false; 
     public float projectTileLifeSpan = 3.5f;

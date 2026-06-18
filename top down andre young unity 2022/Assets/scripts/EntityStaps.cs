@@ -13,6 +13,9 @@ public class EntityStaps : MonoBehaviour
     public float attack_life;
     public float attack_range;
     public int gold_carry = 60;
+
+    // apenas inimgigos
+    public SpawnManager spawn_manager;
     void Start()
     {
         hp = max_hp;
@@ -27,11 +30,18 @@ public class EntityStaps : MonoBehaviour
     {
         if(hp <= 0)
         {
-            //Dá ouro pro player
+            // Dá ouro pro player
             if(gameObject.tag != "Player")
             {
                 InvontoryManager.instance.AddGold(gold_carry);
             }
+
+            // Computa a morte do inimigo
+            if(this.gameObject.tag == "Enemie")
+            {
+                spawn_manager.enemies_alive--;
+            }
+
             Destroy(gameObject);
         }
     }

@@ -11,7 +11,6 @@ public class InvontoryManager : MonoBehaviour
     public GameObject inv_background;
     public GameObject inv_slot;
 
-
     public int active_slot;
 
     public List<Weapon> inventory_;
