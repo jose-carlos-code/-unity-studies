@@ -8,17 +8,16 @@ public class FireController : MonoBehaviour
     public Rigidbody2D rb;
     public float speedFire = 2f;
     public float projectileDamage = 5f;
-    public bool isPlayerProjectile = false; 
+    public bool isPlayerProjectile = false;
     public float projectTileLifeSpan = 3.5f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        if (isPlayerProjectile)
-        {
-            rb.velocity = new Vector2((isPlayerProjectile ? -speedFire : speedFire), 0f); 
-
-        }
+        //if (isPlayerProjectile)
+        //{
+        //    rb.velocity = new Vector2((isPlayerProjectile ? -speedFire : speedFire), 0f); 
+        //}
     }
 
     void Update()

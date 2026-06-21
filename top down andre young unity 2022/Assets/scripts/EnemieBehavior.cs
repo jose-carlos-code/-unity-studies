@@ -42,7 +42,10 @@ public class EnemieBehavior : MonoBehaviour
 
     void FollowPlayer()
     {
-        transform.position = Vector3.MoveTowards(transform.position, player_object.transform.position, move_speed
-            * Time.deltaTime);
+        if(player_object != null)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, player_object.transform.position, move_speed
+                * Time.deltaTime);
+        }
     }
 }

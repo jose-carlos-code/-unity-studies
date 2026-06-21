@@ -89,7 +89,6 @@ public class InvontoryManager : MonoBehaviour
         active_slot = hotKey;
         Weapon selected_weapon = inventory_[hotKey];
         player_stats.attack_damage = selected_weapon.weapon_damage;
-        player_stats.attack_speed = selected_weapon.weapon_speed;
         player_stats.attack_range = selected_weapon.weapon_range;
         player_stats.attack_life = selected_weapon.weapon_life;
         selected_slot = hotKey;
