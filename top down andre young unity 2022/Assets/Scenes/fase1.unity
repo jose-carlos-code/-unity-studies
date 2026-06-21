@@ -1690,7 +1690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.83469486, y: 0.1442418}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 0.000015258789}
+  m_AnchoredPosition: {x: 14, y: 0.000030517578}
   m_SizeDelta: {x: -3.388504, y: 18.694006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930980208
@@ -2006,6 +2006,7 @@ MonoBehaviour:
   - {fileID: 313246981}
   - {fileID: 1440562053}
   - {fileID: 1698625158}
+  damage_popupo: {fileID: 715035697775680376, guid: 2f6537c544c63f242ba9ca36bf2ef5e9, type: 3}
 --- !u!1 &1023497778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4873,7 +4874,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

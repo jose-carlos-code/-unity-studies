@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EntityStaps : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class EntityStaps : MonoBehaviour
     {
         if(hp <= 0)
         {
-            // Dá ouro pro player
+            // DÃ¡ ouro pro player
             if(gameObject.tag != "Player")
             {
                 InvontoryManager.instance.AddGold(gold_carry);
@@ -58,6 +59,11 @@ public class EntityStaps : MonoBehaviour
 
     public void RemoveHp(float hp_to_remove)
     {
+        GameObject new_popup = Instantiate(HUD.instance.damage_popupo, this.gameObject.transform.position, Quaternion.identity);
+        new_popup.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-2f, 2f), 5), ForceMode2D.Impulse);
+        new_popup.GetComponentInChildren<Text>().text = hp_to_remove.ToString();
+        Destroy(new_popup, 1);
+
         hp -= hp_to_remove;
         Death();
     }

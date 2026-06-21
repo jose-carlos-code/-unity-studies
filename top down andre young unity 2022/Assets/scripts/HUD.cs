@@ -17,6 +17,8 @@ public class HUD : MonoBehaviour
 
     public Text[] stats_info;
 
+    public GameObject damage_popupo;
+
     private void Awake()
     {
         if (instance == null)
