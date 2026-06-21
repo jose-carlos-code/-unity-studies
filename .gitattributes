@@ -1,0 +1,17 @@
+# Unity files
+*.cs        text eol=lf
+*.unity     text eol=lf
+*.prefab    text eol=lf
+*.asset     text eol=lf
+*.meta      text eol=lf
+*.mat       text eol=lf
+*.anim      text eol=lf
+*.controller text eol=lf
+
+# Binaries — não mexer
+*.png       binary
+*.jpg       binary
+*.fbx       binary
+*.mp3       binary
+*.wav       binary
+*.dll       binary
