@@ -11,6 +11,9 @@ public class GenearteEnemiesController : MonoBehaviour
 
     [SerializeField] private Transform[] spawnPoints; // Pontos de spawn para os inimigos
 
+    
+    
+
     void Start()
     {
         spawnPoints = new Transform[transform.childCount];
@@ -22,10 +25,10 @@ public class GenearteEnemiesController : MonoBehaviour
 
     void Update()
     {
-        GenerateEnemies();
+      
     }
 
-    void GenerateEnemies()
+    public void GenerateEnemies()
     {
         spawnInterval -= Time.deltaTime;
         if(spawnInterval <= 0)
@@ -35,4 +38,7 @@ public class GenearteEnemiesController : MonoBehaviour
             spawnInterval = 5f; // Reinicia o intervalo de tempo
         }
     }
+
+    
+   
 }

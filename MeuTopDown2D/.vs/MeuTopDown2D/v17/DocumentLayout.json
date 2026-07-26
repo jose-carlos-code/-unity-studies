@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\meutopdown2d\\assets\\scripts\\enemiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\genearteenemiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\genearteenemiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|c:\\github\\-unity-studies\\meutopdown2d\\assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\enemiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B98B8BE0-E813-2BB9-C5D1-2BC87B766B4C}|Assembly-CSharp.csproj|C:\\GitHub\\-unity-studies\\MeuTopDown2D\\assets\\scripts\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GameController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GenearteEnemiesController.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\GenearteEnemiesController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenearteEnemiesController.cs",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnemieController.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\EnemieController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemieController.cs",
@@ -88,18 +88,17 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemieController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T15:55:41.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T15:55:41.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FIreController.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\FIreController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FIreController.cs",
               "ToolTip": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\FIreController.cs",
               "RelativeToolTip": "Assets\\Scripts\\FIreController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T15:55:45.667Z",
               "EditorCaption": ""
@@ -118,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\GitHub\\-unity-studies\\MeuTopDown2D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -126,8 +125,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwCwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T15:55:17.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T15:55:17.897Z"
             }
           ]
         }

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2329019867569794093}
   m_Layer: 6
   m_Name: enemie_skeleton
-  m_TagString: Untagged
+  m_TagString: Enemie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62bb72be0f358849a51b1992eb11337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseSpeed: 3
-  patrolSpeed: 1
+  chaseSpeed: 5
+  patrolSpeed: 2
   patrolPoints:
   - {fileID: 6456037905585102643, guid: d8fbe6c8eb8a1e04fa1f753b9c7ff735, type: 3}
   - {fileID: 739551585176072189, guid: ab30c3d2bac2fac4cb82c735fc9e329e, type: 3}
@@ -229,7 +229,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.041890502, y: -0.001745224}
+  m_Offset: {x: -0.08415434, y: -0.001745224}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -240,5 +240,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.08199, y: 1.1208382}
+  m_Size: {x: 0.75595456, y: 1.1208382}
   m_EdgeRadius: 0

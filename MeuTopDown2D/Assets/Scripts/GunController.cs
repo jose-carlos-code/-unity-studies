@@ -25,7 +25,7 @@ public class GunController : MonoBehaviour
     public void RotationGun()
     {
         Vector2 direction = MouseDirection();
-        // calcula o ângulo em graus
+        // calcula o Ã¢ngulo em graus
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
         /*transform.up = direction;*/ 

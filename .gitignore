@@ -8,6 +8,8 @@
 [Uu]ser[Ss]ettings/
 
 .vs/
+.vscode
+/.vscode
 
 # MemoryCaptures
 [Mm]emory[Cc]aptures/
