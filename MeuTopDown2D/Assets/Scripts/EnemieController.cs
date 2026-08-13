@@ -25,7 +25,7 @@ public class EnemieController : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [Header("Detection")]
-    [SerializeField] private float detectionRange = 10f; // Raio de detecção (radius do collider * escala)
+    [SerializeField] private float detectionRange = 30f; // Raio de detecção (radius do collider * escala)
 
     [SerializeField] private Transform player;  // Referência ao player
     private bool isChasing = false; // Indica se o inimigo esta perseguindo o player
