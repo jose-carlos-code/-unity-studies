@@ -125,7 +125,7 @@ MonoBehaviour:
   MaxhealthPlayer: 100
   currentHealthPlayer: 100
   myRB: {fileID: 0}
-  speed: 13
+  speed: 8
   move: {x: 0, y: 0}
   playerAnimator: {fileID: 0}
 --- !u!50 &2544636053050246664
@@ -301,6 +301,7 @@ MonoBehaviour:
   fireHeart: {fileID: 6081556840530678506, guid: e35532b0827c1cd4ba2bfc90c9ac8b80, type: 3}
   fireHeartPos: {fileID: 2544636054040833520}
   speedShot: 25
+  gunDamage: 10
 --- !u!1 &2544636054040833535
 GameObject:
   m_ObjectHideFlags: 0

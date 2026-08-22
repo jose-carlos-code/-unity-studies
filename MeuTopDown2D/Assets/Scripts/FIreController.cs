@@ -5,6 +5,7 @@ using UnityEngine;
 public class FIreController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
+    public int gunDamage;
     void Start()
     {
        
@@ -20,6 +21,11 @@ public class FIreController : MonoBehaviour
         if (collision.CompareTag("Destroyer"))
         {
             Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "Enemy")
+        {
+            collision.GetComponent<EnemieController>().TaskDamage(gunDamage);
         }
     }
 }

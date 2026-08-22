@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Destroyer
   - Enemie
+  - Bala
   layers:
   - Default
   - TransparentFX

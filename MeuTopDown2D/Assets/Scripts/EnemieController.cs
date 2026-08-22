@@ -30,7 +30,7 @@ public class EnemieController : MonoBehaviour
     [SerializeField] private Transform player;  // Referência ao player
     private bool isChasing = false; // Indica se o inimigo esta perseguindo o player
 
-    private bool isAttacking ;
+    private bool isAttacking; // indica se o inimigo está atacando
 
     GameController gameController;
     void Start()
@@ -129,7 +129,6 @@ public class EnemieController : MonoBehaviour
             player = null;
             isChasing = false;
             //rb.velocity = Vector2.zero;
-
         }
     }
 
@@ -143,6 +142,12 @@ public class EnemieController : MonoBehaviour
         {
             transform.eulerAngles = new Vector2(0f, 180f);
         }
+    }
+
+    public void TaskDamage(int damage)
+    {
+        hp -= damage;
+        Death();
     }
 
     private void Death()

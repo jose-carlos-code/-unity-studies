@@ -9,6 +9,8 @@ public class GunController : MonoBehaviour
     [SerializeField] private GameObject fireHeart;
     [SerializeField] private Transform fireHeartPos;
     [SerializeField] private float speedShot = 5f;
+
+    [SerializeField] private int gunDamage;
     void Start()
     {
         
@@ -38,6 +40,7 @@ public class GunController : MonoBehaviour
         {
             Vector2 mouseDirection = MouseDirection();
             GameObject shot = Instantiate(fireHeart, fireHeartPos.position, transform.rotation);
+            shot.GetComponent<FIreController>().gunDamage = gunDamage;
             shot.GetComponent<Rigidbody2D>().velocity = mouseDirection * speedShot;
         }
     }
