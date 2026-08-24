@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
     
     public int level = 1;
     public int exp = 0;
+    [SerializeField] private List<EnemieController> currentEnemies;
 
     GenearteEnemiesController generateEnemieScript;
 

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,10 +8,10 @@ public class EnemieController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] protected float chaseSpeed = 3f; // Velocidade de perseguição do inimigo
-    [SerializeField] private float patrolSpeed = 2f; // Velocidade de patrulha do inimigo
+    // [SerializeField] private float patrolSpeed = 2f; // Velocidade de patrulha do inimigo
 
-    [SerializeField] private Transform[] patrolPoints; // Ponto de patrulha para o inimigo
-    private int currenPatrolIndex = 0; // índice do ponto de patrulha atual
+    // [SerializeField] private Transform[] patrolPoints; // Ponto de patrulha para o inimigo
+    // private int currenPatrolIndex = 0; // índice do ponto de patrulha atual
 
     private Vector2 move; 
 
@@ -25,10 +25,14 @@ public class EnemieController : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [Header("Detection")]
-    [SerializeField] private float detectionRange = 30f; // Raio de detecção (radius do collider * escala)
+    // [SerializeField] private float avoidRayDistance  = 20f; // Raio de detecção (radius do collider * escala)
+    // [SerializeField] private float fieldOfViewAngle = 90f; // graus, total (45 pra cada lado)
+    [SerializeField] private LayerMask obstacleMask; // Layer do obstáculo
 
     [SerializeField] private Transform player;  // Referência ao player
-    private bool isChasing = false; // Indica se o inimigo esta perseguindo o player
+    private bool isChasing = true; // Indica se o inimigo esta perseguindo o player
+
+    RaycastHit2D hit;
 
     private bool isAttacking; // indica se o inimigo está atacando
 
@@ -38,7 +42,7 @@ public class EnemieController : MonoBehaviour
         gameController = GameObject.FindFirstObjectByType<GameController>();
         rb = GetComponent<Rigidbody2D>();
         // Ajusta o radius do DetectionCollider para o detectionRange (assumindo escala 1 unit = 1m)
-        GetComponent<CircleCollider2D>().radius = detectionRange;
+        //GetComponent<CircleCollider2D>().radius = detectionRange;
         animator = GetComponent<Animator>();
     }
 
@@ -46,72 +50,45 @@ public class EnemieController : MonoBehaviour
     void Update()
     {
        
-
+      
     }
 
     void FixedUpdate()
     {
+        GameObject playerReference = GameObject.FindGameObjectWithTag("Player");
         if(gameController.level < 2)
         {
-            if(player != null && isChasing)
-            {
-                Vector2 direction = (player.position - transform.position).normalized;
-                float distance = Vector2.Distance(transform.position, player.position);
-
-                if(distance - attackRange <= 0)
+            if(playerReference != null && isChasing)
+            {   
+                // Vector2 direction = GetMoveDirection();
+                Vector2 direction = (playerReference.transform.position - transform.position).normalized;
+                transform.position = Vector3.MoveTowards(transform.position, playerReference.transform.position, speed * Time.deltaTime);
+                animator.SetBool("move", true);
+                Flip(direction);
+                float distance = Vector2.Distance(transform.position, playerReference.transform.position);
+                // float distance = direction.magnitude;
+                // hit = Physics2D.Raycast(transform.position, direction, distance, obstacleMask);
+                if (distance - attackRange <= 0)
                 {
                     rb.velocity = Vector2.zero;
-                    isAttacking = true;
-                    if (isAttacking)
-                    {
-                        StartCoroutine(AttackRoutine());
-                    }
-                }
-                else
+                if (!isAttacking)
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, player.transform.position, 
-                    patrolSpeed * Time.deltaTime);
-                    Flip(direction);
+                    isAttacking = true;
+                    StartCoroutine(AttackRoutine());
+                }
                 }
             }
-            else
-            {
 
-                Patrol();
-            }
-        }
-        else
-        {
-            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, patrolSpeed * Time.deltaTime);
         }
     }
 
     IEnumerator AttackRoutine()
     {
-        Debug.Log("Disparou trigger attack");
         animator.SetTrigger("attack");
         yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
     }
 
-
-    void Patrol()
-    {
-        if (patrolPoints.Length == 0) return;
-
-        Transform target = patrolPoints[currenPatrolIndex];
-        //float distance = Vector2.Distance(transform.position, target.position);
-        Vector2 direction = (target.position - transform.position).normalized;
-        Flip(direction);
-        animator.SetBool("move", true);
-        // rb.velocity = direction * patrolSpeed;
-        transform.position = Vector3.MoveTowards(transform.position, target.position, patrolSpeed * Time.deltaTime);
-
-        if(Vector2.Distance(transform.position, target.position) < 0.2f)
-        {
-            currenPatrolIndex = (currenPatrolIndex + 1) % patrolPoints.Length; // Move para o proximo ponto de patrulha
-        }
-    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -128,7 +105,6 @@ public class EnemieController : MonoBehaviour
         {
             player = null;
             isChasing = false;
-            //rb.velocity = Vector2.zero;
         }
     }
 
@@ -147,7 +123,7 @@ public class EnemieController : MonoBehaviour
     public void TaskDamage(int damage)
     {
         hp -= damage;
-        Death();
+        StartCoroutine(DeathCouroine());
     }
 
     private void Death()
@@ -157,5 +133,23 @@ public class EnemieController : MonoBehaviour
             gameController.AddExp(15);
             Destroy(gameObject);
         }
+    }
+
+    IEnumerator DeathCouroine()
+    {
+        animator.SetBool("death", true);
+        yield return new WaitForSeconds(0.5f);
+        Death();
+    }
+
+    private Vector2 RotateVector(Vector2 vector, float degrees)
+    {
+        float rad = degrees * Mathf.Deg2Rad;
+        float cos = Mathf.Cos(rad);
+        float sin = Mathf.Sin(rad);
+        return new Vector2(
+            vector.x * cos - vector.y * sin,
+            vector.x * sin + vector.y * cos
+        );
     }
 }

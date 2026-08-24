@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  gunDamage: 0
+  gunDamage: 20
 --- !u!50 &1403226328178481622
 Rigidbody2D:
   serializedVersion: 4

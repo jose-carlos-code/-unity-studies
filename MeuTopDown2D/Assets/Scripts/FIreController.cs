@@ -23,9 +23,10 @@ public class FIreController : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if(collision.gameObject.tag == "Enemy")
+        if(collision.gameObject.tag == "Enemie")
         {
             collision.GetComponent<EnemieController>().TaskDamage(gunDamage);
+            Destroy(gameObject);
         }
     }
 }
