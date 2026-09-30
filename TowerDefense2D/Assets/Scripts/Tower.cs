@@ -23,7 +23,8 @@ public class Tower : MonoBehaviour
 
     void Shoot()
     {
-        if(targetEnemy == null)
+        // garantindo que: se o alvo não existir ou estiver muito longe, a torre não atira.
+        if(targetEnemy == null || Vector2.Distance(transform.position, targetEnemy.transform.position) > attackRange)
         {   
            targetEnemy =  FindTarget();
         }

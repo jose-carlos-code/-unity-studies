@@ -5,37 +5,74 @@ using UnityEngine;
 public class GenearteEnemiesController : MonoBehaviour
 {
 
-    [SerializeField] private GameObject[] enemies;
+    public List<WaveScriptable> waveList;
 
-    [SerializeField] private float spawnInterval = 3f; // Intervalo de tempo entre os spawns
+    [SerializeField] private int currentWave; // wave atual
+    [SerializeField] private int left_monsters; // monstros restantes
 
-    [SerializeField] private Transform[] spawnPoints; // Pontos de spawn para os inimigos
+    [SerializeField] private bool canSpawEnemies = true;
 
+    [SerializeField] private int monsters_spawned;
+
+    // [SerializeField] private int level = 1;
+    // [SerializeField] private int baseLevel;
+
+    // [SerializeField] private float spawnInterval = 3f; // Intervalo de tempo entre os spawns
+
+    public float spawnCooldown = .4f;
+    private float spawnCooldownCount = 1f;
+
+
+    [SerializeField] private Transform spawnPoint; // Pontos de spawn para os inimigos
+
+
+    public static GenearteEnemiesController Instance { get; set; }
     
+    private void Awake()
+    {
+        left_monsters = waveList[0].n_monsters;  
+        Instance = this;
+        
+    }
     
 
     void Start()
     {
-        spawnPoints = new Transform[transform.childCount];
-        for(int i = 0; i < transform.childCount; i++)
+        spawnPoint = GetComponentInChildren<Transform>();
+        
+    }
+
+    void FixedUpdate()
+    {
+        if (canSpawEnemies == true)
         {
-            spawnPoints[i] = transform.GetChild(i);
+            GenerateEnemies(waveList[currentWave].monster);
         }
     }
 
-    void Update()
+    public void GenerateEnemies(GameObject enemie)
     {
-      
-    }
-
-    public void GenerateEnemies()
-    {
-        spawnInterval -= Time.deltaTime;
-        if(spawnInterval <= 0)
+       if(left_monsters <= 0)
         {
-            Transform point = spawnPoints[Random.Range(0, spawnPoints.Length)];
-            Instantiate(enemies[0], point.position, point.rotation);
-            spawnInterval = 5f; // Reinicia o intervalo de tempo
+            if(currentWave > waveList.Count)
+            {
+                // Fim da primeira fase
+            }
+            canSpawEnemies = false;
+            currentWave++;
+            return;
+        }
+        if(monsters_spawned < waveList[currentWave].n_monsters && spawnCooldownCount < 0)
+        {
+            Instantiate(enemie, spawnPoint.position, Quaternion.identity);
+            monsters_spawned++;
+            spawnCooldownCount = spawnCooldown;
+
+        }
+        else
+        {
+            spawnCooldownCount -= Time.deltaTime;
+            Debug.Log(spawnCooldownCount);
         }
     }
 

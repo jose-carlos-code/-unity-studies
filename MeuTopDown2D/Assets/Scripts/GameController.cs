@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     public int exp = 0;
     [SerializeField] private List<EnemieController> currentEnemies;
 
-    GenearteEnemiesController generateEnemieScript;
+    [SerializeField] private GenearteEnemiesController generateEnemieScript;
 
     void Start()
     {
@@ -19,11 +19,11 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-          if(level >= 2)
-        {
-            generateEnemieScript.GenerateEnemies();
+        //   if(level >= 2)
+        // {
+        //     generateEnemieScript.GenerateEnemies();
             
-        }
+        // }
     }
 
      public void AddExp(int exp)
