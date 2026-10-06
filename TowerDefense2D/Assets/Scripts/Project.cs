@@ -6,8 +6,18 @@ public class Project : MonoBehaviour
 {
     public float projectTileDamage;
     public Transform target_;
+
+    // Canon
     [SerializeField] private bool is_canon = false;
     [SerializeField] private float project_radius = 0;
+
+    // Slow
+    public bool is_slow = false;
+    public float slow_rate = 0;
+
+    // Poison
+    public bool is_poison = false;
+    public float poison_stacks;
     void Start()
     {
         
@@ -38,6 +48,16 @@ public class Project : MonoBehaviour
                         exp_obj.gameObject.GetComponent<EnemyMovement>().TakeDamage(projectTileDamage);
                     }
                 }
+            }
+
+            if(is_slow == true)
+            {
+                collision.gameObject.GetComponent<EnemyMovement>().enemy_speed *= 0.8f;
+            }
+
+            if(is_poison == true)
+            {
+                collision.gameObject.GetComponent<EnemyMovement>().poison_ += poison_stacks;
             }
             Destroy(gameObject);
         }

@@ -10,6 +10,10 @@ public class EnemyMovement : MonoBehaviour
     public int enemy_max_hp;
     public float enemy_curr_hp;
     int nextPoint = 0;
+
+    //Poison_effect
+    public float poison_;
+    public float poison_cooldown = 0f;
     void Start()
     {
         
@@ -25,6 +29,10 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
+    void FixedUpdate()
+    {
+        IsPoisoned();
+    }
 
     public void TakeDamage(float dmg)
     {
@@ -33,6 +41,22 @@ public class EnemyMovement : MonoBehaviour
         {
             WaveManager.Instance.n_monsters_left--;
             Destroy(gameObject);
+        }
+    }
+
+    void IsPoisoned()
+    {
+        if(poison_ > 0)
+        {
+            if(poison_cooldown > 1)
+            {
+                TakeDamage(poison_);
+                poison_cooldown = 0;
+            }       
+             else
+            {
+                poison_cooldown += Time.deltaTime;
+            }
         }
     }
 }

@@ -31,16 +31,17 @@ public class Tower : MonoBehaviour
         else
         {
             if(attackCooldown > attackSpeed)
-        {
-            GameObject projectTileInstance = Instantiate(projectTile, transform.position, Quaternion.identity);
-            projectTileInstance.GetComponent<Project>().projectTileDamage = attackDamage;
-            projectTileInstance.GetComponent<Project>().target_ = targetEnemy.transform;
-            attackCooldown = 0f;
-        }
-        else
-        {
-            attackCooldown+= Time.deltaTime;
-        }
+            {
+                GameObject projectTileInstance = Instantiate(projectTile, transform.position, Quaternion.identity);
+                projectTileInstance.GetComponent<Project>().projectTileDamage = attackDamage;
+                projectTileInstance.GetComponent<Project>().target_ = targetEnemy.transform;
+                attackCooldown = 0f;
+            }
+            else
+            {
+                attackCooldown+= Time.deltaTime;
+            }
+
         }
        
     }

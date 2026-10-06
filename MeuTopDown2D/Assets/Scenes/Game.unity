@@ -1201,6 +1201,10 @@ PrefabInstance:
       propertyPath: spawnCooldown
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 245070513080914581, guid: 4497f8a7835e85242b5bb71388f3c7c1, type: 3}
+      propertyPath: canSpawEnemies
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7650284029004738806, guid: 4497f8a7835e85242b5bb71388f3c7c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.56
@@ -1564,7 +1568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7627516105919740654, guid: 7ba4e4af7f1f26e4f845dcd1217b23d1, type: 3}
       propertyPath: m_XDamping
-      value: 5.4
+      value: 6.9
       objectReference: {fileID: 0}
     - target: {fileID: 7627516105919740654, guid: 7ba4e4af7f1f26e4f845dcd1217b23d1, type: 3}
       propertyPath: m_YDamping

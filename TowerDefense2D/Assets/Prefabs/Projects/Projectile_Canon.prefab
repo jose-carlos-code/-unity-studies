@@ -101,7 +101,7 @@ MonoBehaviour:
   projectTileDamage: 0
   target_: {fileID: 0}
   is_canon: 1
-  project_radius: 3
+  project_radius: 2
 --- !u!58 &6529837565903643364
 CircleCollider2D:
   m_ObjectHideFlags: 0
