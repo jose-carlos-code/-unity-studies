@@ -7,6 +7,7 @@ public class EnemieBehavior : MonoBehaviour
     public float move_speed;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private GameObject player_object;
+
     EntityStaps EnemieStaps;
     void Start()
     {
@@ -45,7 +46,7 @@ public class EnemieBehavior : MonoBehaviour
         if(player_object != null)
         {
             transform.position = Vector3.MoveTowards(transform.position, player_object.transform.position, move_speed
-                * Time.deltaTime);
+            * Time.deltaTime);
         }
     }
 }

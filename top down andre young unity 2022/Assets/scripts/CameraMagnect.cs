@@ -20,14 +20,19 @@ public class CameraMagnect : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            if (Camera.main.GetComponent<CameraBehavior>().target_object == collision.gameObject)
-            {
-                Camera.main.GetComponent<CameraBehavior>().target_object = magnect_position;
-            }
-            else
-            {
-                Camera.main.GetComponent<CameraBehavior>().target_object = collision.gameObject;
-            }
+           
+            Camera.main.GetComponent<CameraBehavior>().target_object = magnect_position;
+        
+        }
+    }
+
+     private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            
+            Camera.main.GetComponent<CameraBehavior>().target_object = collision.gameObject;
+            
         }
     }
 
