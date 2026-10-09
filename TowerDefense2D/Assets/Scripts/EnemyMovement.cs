@@ -7,6 +7,8 @@ public class EnemyMovement : MonoBehaviour
 
     public float enemy_speed;
 
+    public float enemey_gold;
+
     public int enemy_max_hp;
     public float enemy_curr_hp;
     int nextPoint = 0;
@@ -40,6 +42,8 @@ public class EnemyMovement : MonoBehaviour
         if(enemy_curr_hp <= 0)
         {
             WaveManager.Instance.n_monsters_left--;
+            WaveManager.Instance.player_money += enemey_gold;
+            WaveManager.Instance.UpdateHUD();
             Destroy(gameObject);
         }
     }

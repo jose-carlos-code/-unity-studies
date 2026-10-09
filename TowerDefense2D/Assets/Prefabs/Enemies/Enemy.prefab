@@ -122,8 +122,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_speed: 2
+  enemey_gold: 10
   enemy_max_hp: 50
   enemy_curr_hp: 10
+  poison_: 0
+  poison_cooldown: 0
 --- !u!50 &651753269513455923
 Rigidbody2D:
   serializedVersion: 4

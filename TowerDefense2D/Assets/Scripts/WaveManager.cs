@@ -8,7 +8,7 @@ public class WaveManager : MonoBehaviour
 {
 
     public int player_hp;
-    public int player_money;
+    public float player_money = 10f;
 
     public List<WaveScriptable> wavesList;
 
@@ -56,7 +56,7 @@ public class WaveManager : MonoBehaviour
        if(canSpawEnemies == true) SpawEnemies(wavesList[wave_].monster);
     }
 
-    void UpdateHUD()
+    public void UpdateHUD()
     {
         player_hp_text.text = "HP: " + player_hp.ToString();
         player_money_text.text = "$" + player_money.ToString();

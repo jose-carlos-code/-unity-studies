@@ -1,24 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
 
+    public float towerPrice;
     public float attackDamage;
     public float attackRange;
     public float attackSpeed;
     public GameObject projectTile;
     GameObject targetEnemy;
     float attackCooldown;
+
+
+    // Building mode
+
+    [SerializeField] private GameObject buildButton;
+
+    // Esta no modo construcao ou nao?
+    bool isBuilding = true;
+
+    int blockedCount;
     void Start()
     {
-        
+        this.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+    }
+
+    void Update()
+    {
+        if(isBuilding == true){buildingMode();}
     }
 
     void FixedUpdate()
     {
-        Shoot();
+        if(isBuilding == false){Shoot();}
     }
 
     void Shoot()
@@ -57,5 +74,54 @@ public class Tower : MonoBehaviour
             }
         }
         return null;
+    }
+
+    void buildingMode()
+    {
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        mousePosition.z = transform.position.z;
+        transform.position = mousePosition;
+
+        if(blockedCount == 0 &&   WaveManager.Instance.player_money >= towerPrice)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+            // pode construir
+            if (Input.GetMouseButtonUp(0))
+            {
+                isBuilding = false;
+                this.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+                WaveManager.Instance.player_money -= towerPrice;
+                WaveManager.Instance.UpdateHUD();
+                BuildManager.Instance.buildUI.SetActive(true);
+            }
+        }
+        else
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            // nao pode construir
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            BuildManager.Instance.buildUI.SetActive(true);
+            Destroy(gameObject);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Blocked")
+        {
+            blockedCount++;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Blocked")
+        {
+            blockedCount--;
+        }
     }
 }
