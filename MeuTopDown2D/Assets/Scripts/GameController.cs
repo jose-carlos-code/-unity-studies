@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 public class GameController : MonoBehaviour
 {
@@ -11,6 +13,11 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private GenearteEnemiesController generateEnemieScript;
 
+    [SerializeField] private TMP_Text hpText;
+    [SerializeField] private TMP_Text levelText;
+
+    [SerializeField] private GameObject Enemie;
+
     void Start()
     {
         
@@ -19,9 +26,9 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        //   if(level >= 2)
+        // if(level >= 2)
         // {
-        //     generateEnemieScript.GenerateEnemies();
+        //     GenearteEnemiesController.Instance.GenerateEnemies(Enemie);
             
         // }
     }
@@ -32,6 +39,7 @@ public class GameController : MonoBehaviour
         if(this.exp > level * 100)
         {
             level++;
+            levelText.text = "Level : " + level.ToString();
             this.exp = 0 ;
         }
     }

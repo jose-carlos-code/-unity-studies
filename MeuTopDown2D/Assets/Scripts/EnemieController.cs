@@ -131,7 +131,6 @@ public class EnemieController : MonoBehaviour
         if(this.hp <= 0)
         {
             gameController.AddExp(15);
-            GenearteEnemiesController generator = GetComponent<GenearteEnemiesController>();
             GenearteEnemiesController.Instance.DecreaseMonsters();
             Destroy(gameObject);
         }

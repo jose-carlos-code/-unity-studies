@@ -20,7 +20,7 @@ public class GenearteEnemiesController : MonoBehaviour
     // [SerializeField] private float spawnInterval = 3f; // Intervalo de tempo entre os spawns
 
     public float spawnCooldown = .8f;
-    private float spawnCooldownCount = .8f;
+    public float spawnCooldownCount = .8f;
 
 
     [SerializeField] private Transform spawnPoint; // Pontos de spawn para os inimigos
@@ -42,7 +42,7 @@ public class GenearteEnemiesController : MonoBehaviour
         
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (canSpawEnemies == true)
         {
@@ -58,21 +58,34 @@ public class GenearteEnemiesController : MonoBehaviour
             {
                 // Fim da primeira fase
             }
-            canSpawEnemies = false;
-            spawnCooldownCount = spawnCooldown;
-            currentWave++;
+            // canSpawEnemies = false;
+            NextWave();
             return;
         }
-        if(monsters_spawned <= waveList[currentWave].n_monsters && spawnCooldownCount < 0)
+        if(monsters_spawned < waveList[currentWave].n_monsters && spawnCooldownCount < 0)
         {
             Instantiate(enemie, spawnPoint.position, Quaternion.identity);
             monsters_spawned++;
             spawnCooldownCount = spawnCooldown;
 
         }
+      
         else
         {
             spawnCooldownCount -= Time.deltaTime;
+            Debug.Log("spawnCooldownCount: " + spawnCooldownCount);
+        }
+    }
+
+    void NextWave()
+    {
+        spawnCooldownCount -= Time.deltaTime;
+        if(spawnCooldownCount <= 0)
+        {
+            currentWave++;
+            canSpawEnemies = true;
+            monsters_spawned = 0;
+            left_monsters = waveList[currentWave].n_monsters;
         }
     }
 
