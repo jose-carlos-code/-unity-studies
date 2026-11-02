@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     //[SerializeField] private float baseSpeed = 5f;
  
     public Transform postionFire1;
+
+    Animator animator_;
+
     public EntityStaps entity_stats;
     public float coolDown_;
     bool canAttack;
@@ -16,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         entity_stats = gameObject.GetComponent<EntityStaps>();
+        animator_ = gameObject.GetComponent<Animator>();
     }
     void Update()
     {
@@ -38,7 +42,27 @@ public class PlayerMovement : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 move = new Vector3(horizontal, vertical, 0f).normalized;
         transform.position += move * entity_stats.speed * Time.fixedDeltaTime;
+
+        // Animação
+
+        if(horizontal > 0 || horizontal < 0 || vertical > 0 || vertical < 0)
+        {
+            if(horizontal < 0)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            animator_.Play("Move");
+        }
+        else
+        {
+            animator_.Play("Idle");
+        }
     }
+
 
     void Fire()
     {

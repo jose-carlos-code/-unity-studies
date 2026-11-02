@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class EntityStaps : MonoBehaviour
 {
 
-    public float max_hp = 10;
-    public float hp = 10;
+    public float max_hp = 100;
+    public float hp = 100;
     public float speed = 5;
     public float attack_damage;
     public float attack_speed = 0.2f;

@@ -11,7 +11,7 @@ public class openStore : MonoBehaviour
     GameObject player_obj;
     public ShopItem shop_item_prefab;
     public GameObject shop_bg;
-    private float dist;
+    [SerializeField] private float dist;
 
     public List<Weapon> weapons_sold;
 
