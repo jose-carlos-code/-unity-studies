@@ -11,6 +11,10 @@ public class ProjetcTileTower : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (!target)
+        {
+            Destroy(gameObject);
+        }
         transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 

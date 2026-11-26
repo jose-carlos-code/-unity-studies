@@ -34,7 +34,7 @@ public class Tower : MonoBehaviour
             {
                 GameObject project = Instantiate(projectTile, positionInstanceProjectTile.position, quaternion.identity);
                 project.GetComponent<ProjetcTileTower>().target = targetEnemy.transform;
-                coolDownCount = coolDownShoot;
+                coolDownCount = 0;
             }
             else
             {
